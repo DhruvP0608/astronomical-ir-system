@@ -1,0 +1,64 @@
+event_id,event_name,event_type,description,date,year,month,visibility_regions
+1,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2021-06-10 visible in Canada, Greenland, Russia.",2021-06-10,2021,June,Canada|Greenland|Russia
+2,Total Solar Eclipse,Total,Total solar eclipse occurring on 2021-12-04 visible in Antarctica.,2021-12-04,2021,December,Antarctica
+3,Partial Solar Eclipse,Partial,Partial solar eclipse occurring on 2022-04-30 visible in South America.,2022-04-30,2022,April,South America
+4,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2022-10-25 visible in Europe, Africa, Middle East, Asia.",2022-10-25,2022,October,Europe|Africa|Middle East|Asia
+5,Hybrid Solar Eclipse,Hybrid,"Hybrid solar eclipse occurring on 2023-04-20 visible in Indonesia, Australia, Papua New Guinea.",2023-04-20,2023,April,Indonesia|Australia|Papua New Guinea
+6,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2023-10-14 visible in USA, Central America, Colombia, Brazil.",2023-10-14,2023,October,USA|Central America|Colombia|Brazil
+7,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2024-04-08 visible in Mexico, USA, Canada.",2024-04-08,2024,April,Mexico|USA|Canada
+8,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2024-10-02 visible in Chile, Argentina.",2024-10-02,2024,October,Chile|Argentina
+9,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2025-03-29 visible in Africa, Europe, Russia.",2025-03-29,2025,March,Africa|Europe|Russia
+10,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2025-09-21 visible in Pacific, New Zealand, Antarctica.",2025-09-21,2025,September,Pacific|New Zealand|Antarctica
+11,Annular Solar Eclipse,Annular,Annular solar eclipse occurring on 2026-02-17 visible in Antarctica.,2026-02-17,2026,February,Antarctica
+12,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2026-08-12 visible in Arctic, Greenland, Iceland, Spain.",2026-08-12,2026,August,Arctic|Greenland|Iceland|Spain
+13,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2027-02-06 visible in Chile, Argentina.",2027-02-06,2027,February,Chile|Argentina
+14,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2027-08-02 visible in Morocco, Spain, Saudi Arabia.",2027-08-02,2027,August,Morocco|Spain|Saudi Arabia
+15,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2028-01-26 visible in Ecuador, Peru, Brazil, Spain, Portugal.",2028-01-26,2028,January,Ecuador|Peru|Brazil|Spain|Portugal
+16,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2028-07-22 visible in Australia, New Zealand.",2028-07-22,2028,July,Australia|New Zealand
+17,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2029-01-14 visible in North America, Canada.",2029-01-14,2029,January,North America|Canada
+18,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2029-06-12 visible in Arctic, Scandinavia, Alaska.",2029-06-12,2029,June,Arctic|Scandinavia|Alaska
+19,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2029-07-11 visible in Chile, Argentina.",2029-07-11,2029,July,Chile|Argentina
+20,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2029-12-05 visible in Argentina, Chile, Antarctica.",2029-12-05,2029,December,Argentina|Chile|Antarctica
+21,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2030-06-01 visible in Algeria, Tunisia, Greece, Turkey, Russia, China, Japan.",2030-06-01,2030,June,Algeria|Tunisia|Greece|Turkey|Russia|China|Japan
+22,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2030-11-25 visible in Botswana, South Africa, Australia.",2030-11-25,2030,November,Botswana|South Africa|Australia
+23,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2031-05-21 visible in Angola, Congo, Zambia, Tanzania, India, Malaysia, Indonesia.",2031-05-21,2031,May,Angola|Congo|Zambia|Tanzania|India|Malaysia|Indonesia
+24,Hybrid Solar Eclipse,Hybrid,"Hybrid solar eclipse occurring on 2031-11-14 visible in Pacific, Panama.",2031-11-14,2031,November,Pacific|Panama
+25,Annular Solar Eclipse,Annular,Annular solar eclipse occurring on 2032-05-09 visible in Atlantic.,2032-05-09,2032,May,Atlantic
+26,Partial Solar Eclipse,Partial,Partial solar eclipse occurring on 2032-11-03 visible in Asia.,2032-11-03,2032,November,Asia
+27,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2033-03-30 visible in Russia, Alaska.",2033-03-30,2033,March,Russia|Alaska
+28,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2033-09-23 visible in South America, Antarctica.",2033-09-23,2033,September,South America|Antarctica
+29,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2034-03-20 visible in Nigeria, Cameroon, Chad, Sudan, Egypt, Saudi Arabia, Iran, Afghanistan, Pakistan, India, China.",2034-03-20,2034,March,Nigeria|Cameroon|Chad|Sudan|Egypt|Saudi Arabia|Iran|Afghanistan|Pakistan|India|China
+30,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2034-09-12 visible in Chile, Bolivia, Argentina, Paraguay, Brazil.",2034-09-12,2034,September,Chile|Bolivia|Argentina|Paraguay|Brazil
+31,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2035-03-09 visible in New Zealand, Pacific.",2035-03-09,2035,March,New Zealand|Pacific
+32,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2035-09-02 visible in China, Korea, Japan, Pacific.",2035-09-02,2035,September,China|Korea|Japan|Pacific
+33,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2036-02-27 visible in Antarctica, Australia, New Zealand.",2036-02-27,2036,February,Antarctica|Australia|New Zealand
+34,Partial Solar Eclipse,Partial,Partial solar eclipse occurring on 2036-07-23 visible in Atlantic.,2036-07-23,2036,July,Atlantic
+35,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2036-08-21 visible in Alaska, Canada, Arctic, Western Europe, Northwest Africa.",2036-08-21,2036,August,Alaska|Canada|Arctic|Western Europe|Northwest Africa
+36,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2037-01-16 visible in North Africa, Europe, Middle East, Asia.",2037-01-16,2037,January,North Africa|Europe|Middle East|Asia
+37,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2037-07-13 visible in Australia, New Zealand.",2037-07-13,2037,July,Australia|New Zealand
+38,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2038-01-05 visible in Cuba, Dominican Republic, Cote d'Ivoire, Ghana, Niger, Chad, Egypt.",2038-01-05,2038,January,Cuba|Dominican Republic|Cote d'Ivoire|Ghana|Niger|Chad|Egypt
+39,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2038-07-02 visible in Colombia, Venezuela, Mauritania, Morocco, Mali, Niger, Chad, Sudan, Ethiopia, Kenya.",2038-07-02,2038,July,Colombia|Venezuela|Mauritania|Morocco|Mali|Niger|Chad|Sudan|Ethiopia|Kenya
+40,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2038-12-26 visible in Australia, New Zealand, South Pacific.",2038-12-26,2038,December,Australia|New Zealand|South Pacific
+41,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2039-06-21 visible in Alaska, Canada, Norway, Sweden, Finland, Estonia, Russia.",2039-06-21,2039,June,Alaska|Canada|Norway|Sweden|Finland|Estonia|Russia
+42,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2039-12-15 visible in South America, Antarctica.",2039-12-15,2039,December,South America|Antarctica
+43,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2040-05-11 visible in Australia, New Zealand, Antarctica.",2040-05-11,2040,May,Australia|New Zealand|Antarctica
+44,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2040-11-04 visible in North America, Central America.",2040-11-04,2040,November,North America|Central America
+45,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2041-04-30 visible in Angola, Congo, Uganda, Kenya, Somalia.",2041-04-30,2041,April,Angola|Congo|Uganda|Kenya|Somalia
+46,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2041-10-25 visible in Mongolia, China, Korea, Japan.",2041-10-25,2041,October,Mongolia|China|Korea|Japan
+47,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2042-04-20 visible in Malaysia, Indonesia, Philippines.",2042-04-20,2042,April,Malaysia|Indonesia|Philippines
+48,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2042-10-14 visible in Thailand, Malaysia, Indonesia, Australia, New Zealand.",2042-10-14,2042,October,Thailand|Malaysia|Indonesia|Australia|New Zealand
+49,Total Solar Eclipse,Total,Total solar eclipse occurring on 2043-04-09 visible in Russia.,2043-04-09,2043,April,Russia
+50,Annular Solar Eclipse,Annular,Annular solar eclipse occurring on 2043-10-03 visible in Indian Ocean.,2043-10-03,2043,October,Indian Ocean
+51,Annular Solar Eclipse,Annular,Annular solar eclipse occurring on 2044-02-28 visible in Atlantic.,2044-02-28,2044,February,Atlantic
+52,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2044-08-23 visible in Greenland, Canada, Montana, North Dakota.",2044-08-23,2044,August,Greenland|Canada|Montana|North Dakota
+53,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2045-02-16 visible in New Zealand, Pacific.",2045-02-16,2045,February,New Zealand|Pacific
+54,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2045-08-12 visible in USA, Haiti, Dominican Republic, Venezuela, Guyana, French Guiana, Suriname, Brazil.",2045-08-12,2045,August,USA|Haiti|Dominican Republic|Venezuela|Guyana|French Guiana|Suriname|Brazil
+55,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2046-02-05 visible in Papua New Guinea, Hawaii, California, Oregon, Idaho.",2046-02-05,2046,February,Papua New Guinea|Hawaii|California|Oregon|Idaho
+56,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2046-08-02 visible in Brazil, Angola, Namibia, Botswana, South Africa, Swaziland, Mozambique.",2046-08-02,2046,August,Brazil|Angola|Namibia|Botswana|South Africa|Swaziland|Mozambique
+57,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2047-01-26 visible in Asia, Alaska.",2047-01-26,2047,January,Asia|Alaska
+58,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2047-06-23 visible in Canada, Greenland, Asia.",2047-06-23,2047,June,Canada|Greenland|Asia
+59,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2047-07-22 visible in Australia, New Zealand.",2047-07-22,2047,July,Australia|New Zealand
+60,Partial Solar Eclipse,Partial,"Partial solar eclipse occurring on 2047-12-16 visible in Antarctica, Chile, Argentina.",2047-12-16,2047,December,Antarctica|Chile|Argentina
+61,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2048-06-11 visible in Midwest USA, Quebec, Greenland, Iceland, Norway, Sweden, Russia, Afghanistan.",2048-06-11,2048,June,Midwest USA|Quebec|Greenland|Iceland|Norway|Sweden|Russia|Afghanistan
+62,Total Solar Eclipse,Total,"Total solar eclipse occurring on 2048-12-05 visible in Chile, Argentina, Namibia, Botswana.",2048-12-05,2048,December,Chile|Argentina|Namibia|Botswana
+63,Annular Solar Eclipse,Annular,"Annular solar eclipse occurring on 2049-05-31 visible in Peru, Ecuador, Colombia, Venezuela, Guyana, Senegal, Mali, Burkina Faso, Ghana, Nigeria.",2049-05-31,2049,May,Peru|Ecuador|Colombia|Venezuela|Guyana|Senegal|Mali|Burkina Faso|Ghana|Nigeria

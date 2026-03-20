@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>IR Research Dashboard</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+/* override main card width */
+.event-card{
+
+width:100% !important;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+/* metric cards */
+
+.metric-grid{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+margin-bottom:50px;
+
+flex-wrap:wrap;
+
+}
+
+.metric-card{
+
+background:rgba(255,255,255,0.05);
+
+padding:25px;
+
+border-radius:20px;
+
+width:240px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+
+}
+
+.metric-card h3{
+
+color:#4cc9f0;
+
+margin-bottom:10px;
+
+}
+
+.metric-card p{
+
+color:#9fb3c8;
+
+margin:6px;
+
+}
+
+.best{
+
+border:2px solid #4cc9f0;
+
+}
+
+/* ranking */
+
+.ranking{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+margin-top:30px;
+
+margin-bottom:50px;
+
+}
+
+.rank-card{
+
+background:rgba(255,255,255,0.05);
+
+padding:25px;
+
+border-radius:20px;
+
+width:220px;
+
+text-align:center;
+
+}
+
+.gold{border:2px solid gold}
+.silver{border:2px solid silver}
+.bronze{border:2px solid #cd7f32}
+
+/* charts */
+
+.chart-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:30px;
+
+max-width:1000px;
+
+margin:auto;
+
+margin-top:40px;
+
+}
+
+.chart-card{
+
+background:rgba(255,255,255,0.04);
+
+padding:20px;
+
+border-radius:20px;
+
+height:300px;
+
+}
+
+.chart-card canvas{
+
+height:240px !important;
+
+}
+
+/* radar */
+
+.radar-card{
+
+background:rgba(255,255,255,0.05);
+
+padding:25px;
+
+border-radius:25px;
+
+width:520px;
+
+height:380px;
+
+margin:auto;
+
+margin-top:60px;
+
+}
+
+.radar-card canvas{
+
+height:260px !important;
+
+}
+
+/* table */
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:20px;
+
+}
+
+th{
+
+color:#4cc9f0;
+
+padding:10px;
+
+}
+
+td{
+
+padding:8px;
+
+text-align:center;
+
+color:#9fb3c8;
+
+}
+
+/* verdict */
+
+.verdict{
+
+background:rgba(255,255,255,0.05);
+
+padding:25px;
+
+border-radius:20px;
+
+max-width:900px;
+
+margin:auto;
+
+margin-top:50px;
+
+}
+
+.section{
+
+margin-top:60px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="nav-left">
+<a href="/" class="logo">🌌 EH</a>
+</div>
+
+<div class="nav-right">
+
+<a href="/" class="nav-btn">Home</a>
+
+<a href="/research" class="nav-btn primary">
+Research
+</a>
+
+</div>
+
+</nav>
+
+
+<div class="main-container">
+
+<h1>
+
+IR <span class="highlight">Research Dashboard</span>
+
+</h1>
+
+<p class="subtitle">
+
+Comparative evaluation of retrieval models
+
+</p>
+
+
+<!-- METRICS -->
+
+<div class="metric-grid">
+
+<div class="metric-card best">
+
+<h3>TF-IDF</h3>
+
+<p>P@5: {{results["TFIDF"]["Precision@5"]}}</p>
+
+<p>Recall: {{results["TFIDF"]["Recall@5"]}}</p>
+
+<p>MAP: {{results["TFIDF"]["MAP"]}}</p>
+
+<p>MRR: {{results["TFIDF"]["MRR"]}}</p>
+
+</div>
+
+<div class="metric-card">
+
+<h3>BM25</h3>
+
+<p>P@5: {{results["BM25"]["Precision@5"]}}</p>
+
+<p>Recall: {{results["BM25"]["Recall@5"]}}</p>
+
+<p>MAP: {{results["BM25"]["MAP"]}}</p>
+
+<p>MRR: {{results["BM25"]["MRR"]}}</p>
+
+</div>
+
+<div class="metric-card">
+
+<h3>Dense</h3>
+
+<p>P@5: {{results["Dense"]["Precision@5"]}}</p>
+
+<p>Recall: {{results["Dense"]["Recall@5"]}}</p>
+
+<p>MAP: {{results["Dense"]["MAP"]}}</p>
+
+<p>MRR: {{results["Dense"]["MRR"]}}</p>
+
+</div>
+
+</div>
+
+
+<!-- RANKING -->
+
+<div class="ranking">
+
+<div class="rank-card gold">
+
+<h2>🥇</h2>
+
+<h3>TF-IDF</h3>
+
+<p>Best MAP & MRR</p>
+
+</div>
+
+<div class="rank-card silver">
+
+<h2>🥈</h2>
+
+<h3>BM25</h3>
+
+<p>Balanced ranking</p>
+
+</div>
+
+<div class="rank-card bronze">
+
+<h2>🥉</h2>
+
+<h3>Dense</h3>
+
+<p>Semantic retrieval</p>
+
+</div>
+
+</div>
+
+
+<!-- TABLE -->
+
+<div class="section">
+
+<div class="event-card">
+
+<h3>Model Comparison</h3>
+
+<table>
+
+<tr>
+
+<th>Model</th>
+
+<th>P@5</th>
+
+<th>Recall</th>
+
+<th>MAP</th>
+
+<th>MRR</th>
+
+</tr>
+
+{% for model in results %}
+
+<tr>
+
+<td>{{model}}</td>
+
+<td>{{results[model]["Precision@5"]}}</td>
+
+<td>{{results[model]["Recall@5"]}}</td>
+
+<td>{{results[model]["MAP"]}}</td>
+
+<td>{{results[model]["MRR"]}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+</div>
+
+
+<!-- CHARTS -->
+
+<div class="chart-grid">
+
+<div class="chart-card">
+
+<canvas id="precisionChart"></canvas>
+
+</div>
+
+<div class="chart-card">
+
+<canvas id="recallChart"></canvas>
+
+</div>
+
+<div class="chart-card">
+
+<canvas id="mapChart"></canvas>
+
+</div>
+
+<div class="chart-card">
+
+<canvas id="mrrChart"></canvas>
+
+</div>
+
+</div>
+
+
+<!-- RADAR -->
+
+<div class="radar-card">
+
+<h3 style="color:#4cc9f0">
+
+Model Performance Radar
+
+</h3>
+
+<canvas id="radarChart"></canvas>
+
+</div>
+
+
+<!-- VERDICT -->
+
+<div class="verdict">
+
+<h3>Performance Verdict</h3>
+
+<p>
+
+TF-IDF performs strongest due to direct keyword overlap.
+BM25 improves ranking using probabilistic scoring.
+Dense retrieval enables semantic similarity but benefits from larger datasets.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const data={{results|tojson}}
+
+const models=Object.keys(data)
+
+const precision=models.map(m=>data[m]["Precision@5"])
+
+const recall=models.map(m=>data[m]["Recall@5"])
+
+const map=models.map(m=>data[m]["MAP"])
+
+const mrr=models.map(m=>data[m]["MRR"])
+
+const colors=["#4cc9f0","#f72585","#fca311"]
+
+function chart(id,label,values){
+
+new Chart(
+
+document.getElementById(id),
+
+{
+
+type:"bar",
+
+data:{
+
+labels:models,
+
+datasets:[{
+
+label:label,
+
+data:values,
+
+backgroundColor:colors,
+
+borderRadius:6
+
+}]
+
+},
+
+options:{
+
+responsive:true,
+
+maintainAspectRatio:false,
+
+plugins:{
+legend:{labels:{color:"white"}}
+},
+
+scales:{
+
+y:{
+ticks:{color:"#9fb3c8"},
+grid:{color:"rgba(255,255,255,0.05)"}
+},
+
+x:{
+ticks:{color:"#9fb3c8"},
+grid:{display:false}
+}
+
+}
+
+}
+
+})
+
+}
+
+chart("precisionChart","Precision@5",precision)
+
+chart("recallChart","Recall@5",recall)
+
+chart("mapChart","MAP",map)
+
+chart("mrrChart","MRR",mrr)
+
+
+new Chart(
+
+document.getElementById("radarChart"),
+
+{
+
+type:"radar",
+
+data:{
+
+labels:["Precision","Recall","MAP","MRR"],
+
+datasets:[
+
+{
+
+label:"TFIDF",
+
+data:[precision[2],recall[2],map[2],mrr[2]],
+
+backgroundColor:"rgba(76,201,240,0.2)",
+
+borderColor:"#4cc9f0"
+
+},
+
+{
+
+label:"BM25",
+
+data:[precision[0],recall[0],map[0],mrr[0]],
+
+backgroundColor:"rgba(247,37,133,0.2)",
+
+borderColor:"#f72585"
+
+},
+
+{
+
+label:"Dense",
+
+data:[precision[1],recall[1],map[1],mrr[1]],
+
+backgroundColor:"rgba(252,163,17,0.2)",
+
+borderColor:"#fca311"
+
+}
+
+]
+
+},
+
+options:{
+
+responsive:true,
+
+maintainAspectRatio:false,
+
+plugins:{
+legend:{labels:{color:"white"}}
+},
+
+scales:{
+
+r:{
+pointLabels:{color:"white"},
+grid:{color:"rgba(255,255,255,0.1)"}
+}
+
+}
+
+}
+
+})
+
+</script>
+
+</body>
+
+</html>

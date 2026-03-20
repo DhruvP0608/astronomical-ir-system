@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Event Horizon</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- TOAST CONTAINER -->
+<div id="toast-container"></div>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% for category, message in messages %}
+      <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            showToast("{{ message }}", "{{ category }}");
+        });
+      </script>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+
+<!-- STAR BACKGROUND -->
+<div id="stars"></div>
+
+<!-- LOGIN CARD -->
+<div class="auth-card">
+    <h2>Welcome Back 🌙</h2>
+
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <p class="auth-switch">
+    Don't have an account?
+    <a href="/register" class="auth-link">Create one</a>
+</p>
+
+</div>
+
+<script src="{{ url_for('static', filename='toast.js') }}"></script>
+<script src="{{ url_for('static', filename='stars.js') }}"></script>
+
+</body>
+</html>

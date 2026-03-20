@@ -1,0 +1,4 @@
+event_id,event_name,event_type,description,date,year,month,visibility_regions
+1,Transit of Mercury,Planetary Transit,Mercury transit across the Sun visible from regions of Earth where the Sun is above the horizon.,2032-11-13,2032,November,Global (daylight regions only)
+2,Transit of Mercury,Planetary Transit,Mercury transit across the Sun visible from regions of Earth where the Sun is above the horizon.,2039-11-07,2039,November,Global (daylight regions only)
+3,Transit of Mercury,Planetary Transit,Mercury transit across the Sun visible from regions of Earth where the Sun is above the horizon.,2049-05-07,2049,May,Global (daylight regions only)

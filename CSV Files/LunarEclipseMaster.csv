@@ -1,0 +1,68 @@
+event_id,event_name,event_type,description,date,year,month,visibility_regions
+1,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2021-05-26 visible in Asia, Australia, Pacific, Americas.",2021-05-26,2021,May,Asia|Australia|Pacific|Americas
+2,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2021-11-19 visible in Americas, Europe, Asia, Australia, Pacific.",2021-11-19,2021,November,Americas|Europe|Asia|Australia|Pacific
+3,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2022-05-16 visible in Americas, Europe, Africa.",2022-05-16,2022,May,Americas|Europe|Africa
+4,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2022-11-08 visible in Asia, Australia, Pacific, Americas.",2022-11-08,2022,November,Asia|Australia|Pacific|Americas
+5,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2023-05-05 visible in Africa, Asia, Australia.",2023-05-05,2023,May,Africa|Asia|Australia
+6,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2023-10-28 visible in Americas, Europe, Africa, Asia, Australia.",2023-10-28,2023,October,Americas|Europe|Africa|Asia|Australia
+7,Penumbral Lunar Eclipse,Penumbral,Penumbral lunar eclipse occurring on 2024-03-25 visible in Americas.,2024-03-25,2024,March,Americas
+8,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2024-09-18 visible in Americas, Europe, Africa.",2024-09-18,2024,September,Americas|Europe|Africa
+9,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2025-03-14 visible in Pacific, Americas, Europe, Africa.",2025-03-14,2025,March,Pacific|Americas|Europe|Africa
+10,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2025-09-07 visible in Europe, Africa, Asia, Australia.",2025-09-07,2025,September,Europe|Africa|Asia|Australia
+11,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2026-03-03 visible in Asia, Australia, Pacific, Americas.",2026-03-03,2026,March,Asia|Australia|Pacific|Americas
+12,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2026-08-28 visible in Pacific, Americas, Europe, Africa.",2026-08-28,2026,August,Pacific|Americas|Europe|Africa
+13,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2027-02-20 visible in Americas, Europe, Africa, Asia.",2027-02-20,2027,February,Americas|Europe|Africa|Asia
+14,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2027-07-18 visible in Africa, Asia, Australia, Pacific.",2027-07-18,2027,July,Africa|Asia|Australia|Pacific
+15,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2027-08-17 visible in Pacific, Americas.",2027-08-17,2027,August,Pacific|Americas
+16,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2028-01-12 visible in Americas, Europe, Africa.",2028-01-12,2028,January,Americas|Europe|Africa
+17,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2028-07-06 visible in Europe, Africa, Asia, Australia.",2028-07-06,2028,July,Europe|Africa|Asia|Australia
+18,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2028-12-31 visible in Europe, Africa, Asia, Australia, Pacific.",2028-12-31,2028,December,Europe|Africa|Asia|Australia|Pacific
+19,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2029-06-26 visible in Americas, Europe, Africa, Middle East.",2029-06-26,2029,June,Americas|Europe|Africa|Middle East
+20,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2029-12-20 visible in Americas, Europe, Africa, Asia.",2029-12-20,2029,December,Americas|Europe|Africa|Asia
+21,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2030-06-15 visible in Europe, Africa, Asia, Australia.",2030-06-15,2030,June,Europe|Africa|Asia|Australia
+22,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2030-12-09 visible in Americas, Europe, Africa, Asia.",2030-12-09,2030,December,Americas|Europe|Africa|Asia
+23,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2031-05-07 visible in Americas, Europe, Africa.",2031-05-07,2031,May,Americas|Europe|Africa
+24,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2031-06-05 visible in East Indies, Australia, Pacific.",2031-06-05,2031,June,East Indies|Australia|Pacific
+25,Penumbral Lunar Eclipse,Penumbral,Penumbral lunar eclipse occurring on 2031-10-30 visible in Americas.,2031-10-30,2031,October,Americas
+26,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2032-04-25 visible in Africa, Asia, Australia, Pacific.",2032-04-25,2032,April,Africa|Asia|Australia|Pacific
+27,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2032-10-18 visible in Africa, Europe, Asia, Australia.",2032-10-18,2032,October,Africa|Europe|Asia|Australia
+28,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2033-04-14 visible in Europe, Africa, Asia, Australia.",2033-04-14,2033,April,Europe|Africa|Asia|Australia
+29,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2033-10-08 visible in Asia, Australia, Pacific, Americas.",2033-10-08,2033,October,Asia|Australia|Pacific|Americas
+30,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2034-04-03 visible in Europe, Africa, Asia, Australia.",2034-04-03,2034,April,Europe|Africa|Asia|Australia
+31,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2034-09-28 visible in Americas, Europe, Africa.",2034-09-28,2034,September,Americas|Europe|Africa
+32,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2035-02-22 visible in Asia, Pacific, Americas.",2035-02-22,2035,February,Asia|Pacific|Americas
+33,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2035-08-19 visible in Americas, Europe, Africa, Middle East.",2035-08-19,2035,August,Americas|Europe|Africa|Middle East
+34,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2036-02-11 visible in Americas, Europe, Africa, Asia, Australia.",2036-02-11,2036,February,Americas|Europe|Africa|Asia|Australia
+35,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2036-08-07 visible in Americas, Europe, Africa, Asia.",2036-08-07,2036,August,Americas|Europe|Africa|Asia
+36,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2037-01-31 visible in Europe, Africa, Asia, Australia, Pacific.",2037-01-31,2037,January,Europe|Africa|Asia|Australia|Pacific
+37,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2037-07-27 visible in Americas, Europe, Africa.",2037-07-27,2037,July,Americas|Europe|Africa
+38,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2038-01-21 visible in Americas, Europe, Africa.",2038-01-21,2038,January,Americas|Europe|Africa
+39,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2038-06-17 visible in North America, South America, Africa, Europe.",2038-06-17,2038,June,North America|South America|Africa|Europe
+40,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2038-07-16 visible in Australia, Asia, Pacific, Americas.",2038-07-16,2038,July,Australia|Asia|Pacific|Americas
+41,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2038-12-11 visible in Europe, Africa, Asia, Australia.",2038-12-11,2038,December,Europe|Africa|Asia|Australia
+42,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2039-06-06 visible in Europe, Africa, Asia, Australia.",2039-06-06,2039,June,Europe|Africa|Asia|Australia
+43,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2039-11-30 visible in Europe, Africa, Asia, Australia, Pacific.",2039-11-30,2039,November,Europe|Africa|Asia|Australia|Pacific
+44,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2040-05-26 visible in Asia, Australia, Pacific, Americas.",2040-05-26,2040,May,Asia|Australia|Pacific|Americas
+45,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2040-11-18 visible in Americas, Europe, Africa, Asia, Australia.",2040-11-18,2040,November,Americas|Europe|Africa|Asia|Australia
+46,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2041-05-16 visible in Americas, Europe, Africa, Asia.",2041-05-16,2041,May,Americas|Europe|Africa|Asia
+47,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2041-11-08 visible in Americas, Europe, Africa.",2041-11-08,2041,November,Americas|Europe|Africa
+48,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2042-04-05 visible in Asia, Australia, Pacific.",2042-04-05,2042,April,Asia|Australia|Pacific
+49,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2042-09-29 visible in Asia, Australia, Pacific, Americas.",2042-09-29,2042,September,Asia|Australia|Pacific|Americas
+50,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2043-03-25 visible in Africa, Europe, Asia, Australia, Pacific.",2043-03-25,2043,March,Africa|Europe|Asia|Australia|Pacific
+51,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2043-09-19 visible in Americas, Europe, Africa, Asia.",2043-09-19,2043,September,Americas|Europe|Africa|Asia
+52,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2044-03-13 visible in South America, Europe, Africa, Asia, Australia.",2044-03-13,2044,March,South America|Europe|Africa|Asia|Australia
+53,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2044-09-07 visible in Asia, Australia, Pacific, Americas.",2044-09-07,2044,September,Asia|Australia|Pacific|Americas
+54,Penumbral Lunar Eclipse,Penumbral,Penumbral lunar eclipse occurring on 2045-03-03 visible in Americas.,2045-03-03,2045,March,Americas
+55,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2045-08-27 visible in Asia, Australia, North America.",2045-08-27,2045,August,Asia|Australia|North America
+56,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2046-01-22 visible in Asia, Australia, North America.",2046-01-22,2046,January,Asia|Australia|North America
+57,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2046-07-18 visible in Americas, Europe, Africa, Asia.",2046-07-18,2046,July,Americas|Europe|Africa|Asia
+58,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2047-01-12 visible in Americas, Europe, Africa, Asia.",2047-01-12,2047,January,Americas|Europe|Africa|Asia
+59,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2047-07-07 visible in Asia, Australia, Pacific, Americas.",2047-07-07,2047,July,Asia|Australia|Pacific|Americas
+60,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2048-01-01 visible in Asia, Pacific, Americas, Europe, Africa.",2048-01-01,2048,January,Asia|Pacific|Americas|Europe|Africa
+61,Partial Lunar Eclipse,Partial,"Partial lunar eclipse occurring on 2048-06-26 visible in Americas, Europe, Africa.",2048-06-26,2048,June,Americas|Europe|Africa
+62,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2048-12-20 visible in Americas, Europe, Africa.",2048-12-20,2048,December,Americas|Europe|Africa
+63,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2049-05-17 visible in Asia, Australia, Pacific, Americas.",2049-05-17,2049,May,Asia|Australia|Pacific|Americas
+64,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2049-06-15 visible in Europe, Africa, Asia, Australia.",2049-06-15,2049,June,Europe|Africa|Asia|Australia
+65,Penumbral Lunar Eclipse,Penumbral,"Penumbral lunar eclipse occurring on 2049-11-09 visible in Europe, Africa, Asia, Australia, Pacific.",2049-11-09,2049,November,Europe|Africa|Asia|Australia|Pacific
+66,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2050-05-06 visible in Americas, Europe, Africa, Asia, Australia.",2050-05-06,2050,May,Americas|Europe|Africa|Asia|Australia
+67,Total Lunar Eclipse,Total,"Total lunar eclipse occurring on 2050-10-30 visible in Americas, Europe, Africa, Asia.",2050-10-30,2050,October,Americas|Europe|Africa|Asia

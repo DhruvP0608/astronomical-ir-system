@@ -1,0 +1,5 @@
+event_id,event_name,event_type,description,date,year,month,visibility_regions
+1,Six-Planet Morning Alignment,Planetary Conjunction,Six planets and the Moon visible simultaneously in the morning sky.,2025-08-01,2025,August,Global (clear sky conditions required)
+2,Six-Planet Evening Alignment,Planetary Conjunction,"Rare planetary parade featuring Mercury, Venus, Jupiter, Saturn, Uranus, and Neptune visible shortly after sunset.",2026-02-28,2026,February,Global (clear sky conditions required)
+3,Seven-Planet Alignment,Planetary Conjunction,Seven planets visible one hour before sunrise.,2028-10-22,2028,October,Global (clear sky conditions required)
+4,Golden Planetary Conjunction,Planetary Conjunction,"Five visible planets (Mercury, Venus, Mars, Jupiter, Saturn) and a crescent Moon clustering within a small region of the sky.",2040-09-08,2040,September,Global (clear sky conditions required)

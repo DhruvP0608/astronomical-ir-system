@@ -1,0 +1,408 @@
+doc_id,event_category,event_name,description,date,year,month,visibility_regions
+1,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2021-06-10 visible in Canada, Greenland, Russia.",2021-06-10,2021,June,Canada|Greenland|Russia
+2,Solar Eclipse,Total Solar Eclipse,Total solar eclipse occurring on 2021-12-04 visible in Antarctica.,2021-12-04,2021,December,Antarctica
+3,Solar Eclipse,Partial Solar Eclipse,Partial solar eclipse occurring on 2022-04-30 visible in South America.,2022-04-30,2022,April,South America
+4,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2022-10-25 visible in Europe, Africa, Middle East, Asia.",2022-10-25,2022,October,Europe|Africa|Middle East|Asia
+5,Solar Eclipse,Hybrid Solar Eclipse,"Hybrid solar eclipse occurring on 2023-04-20 visible in Indonesia, Australia, Papua New Guinea.",2023-04-20,2023,April,Indonesia|Australia|Papua New Guinea
+6,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2023-10-14 visible in USA, Central America, Colombia, Brazil.",2023-10-14,2023,October,USA|Central America|Colombia|Brazil
+7,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2024-04-08 visible in Mexico, USA, Canada.",2024-04-08,2024,April,Mexico|USA|Canada
+8,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2024-10-02 visible in Chile, Argentina.",2024-10-02,2024,October,Chile|Argentina
+9,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2025-03-29 visible in Africa, Europe, Russia.",2025-03-29,2025,March,Africa|Europe|Russia
+10,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2025-09-21 visible in Pacific, New Zealand, Antarctica.",2025-09-21,2025,September,Pacific|New Zealand|Antarctica
+11,Solar Eclipse,Annular Solar Eclipse,Annular solar eclipse occurring on 2026-02-17 visible in Antarctica.,2026-02-17,2026,February,Antarctica
+12,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2026-08-12 visible in Arctic, Greenland, Iceland, Spain.",2026-08-12,2026,August,Arctic|Greenland|Iceland|Spain
+13,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2027-02-06 visible in Chile, Argentina.",2027-02-06,2027,February,Chile|Argentina
+14,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2027-08-02 visible in Morocco, Spain, Saudi Arabia.",2027-08-02,2027,August,Morocco|Spain|Saudi Arabia
+15,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2028-01-26 visible in Ecuador, Peru, Brazil, Spain, Portugal.",2028-01-26,2028,January,Ecuador|Peru|Brazil|Spain|Portugal
+16,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2028-07-22 visible in Australia, New Zealand.",2028-07-22,2028,July,Australia|New Zealand
+17,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2029-01-14 visible in North America, Canada.",2029-01-14,2029,January,North America|Canada
+18,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2029-06-12 visible in Arctic, Scandinavia, Alaska.",2029-06-12,2029,June,Arctic|Scandinavia|Alaska
+19,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2029-07-11 visible in Chile, Argentina.",2029-07-11,2029,July,Chile|Argentina
+20,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2029-12-05 visible in Argentina, Chile, Antarctica.",2029-12-05,2029,December,Argentina|Chile|Antarctica
+21,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2030-06-01 visible in Algeria, Tunisia, Greece, Turkey, Russia, China, Japan.",2030-06-01,2030,June,Algeria|Tunisia|Greece|Turkey|Russia|China|Japan
+22,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2030-11-25 visible in Botswana, South Africa, Australia.",2030-11-25,2030,November,Botswana|South Africa|Australia
+23,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2031-05-21 visible in Angola, Congo, Zambia, Tanzania, India, Malaysia, Indonesia.",2031-05-21,2031,May,Angola|Congo|Zambia|Tanzania|India|Malaysia|Indonesia
+24,Solar Eclipse,Hybrid Solar Eclipse,"Hybrid solar eclipse occurring on 2031-11-14 visible in Pacific, Panama.",2031-11-14,2031,November,Pacific|Panama
+25,Solar Eclipse,Annular Solar Eclipse,Annular solar eclipse occurring on 2032-05-09 visible in Atlantic.,2032-05-09,2032,May,Atlantic
+26,Solar Eclipse,Partial Solar Eclipse,Partial solar eclipse occurring on 2032-11-03 visible in Asia.,2032-11-03,2032,November,Asia
+27,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2033-03-30 visible in Russia, Alaska.",2033-03-30,2033,March,Russia|Alaska
+28,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2033-09-23 visible in South America, Antarctica.",2033-09-23,2033,September,South America|Antarctica
+29,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2034-03-20 visible in Nigeria, Cameroon, Chad, Sudan, Egypt, Saudi Arabia, Iran, Afghanistan, Pakistan, India, China.",2034-03-20,2034,March,Nigeria|Cameroon|Chad|Sudan|Egypt|Saudi Arabia|Iran|Afghanistan|Pakistan|India|China
+30,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2034-09-12 visible in Chile, Bolivia, Argentina, Paraguay, Brazil.",2034-09-12,2034,September,Chile|Bolivia|Argentina|Paraguay|Brazil
+31,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2035-03-09 visible in New Zealand, Pacific.",2035-03-09,2035,March,New Zealand|Pacific
+32,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2035-09-02 visible in China, Korea, Japan, Pacific.",2035-09-02,2035,September,China|Korea|Japan|Pacific
+33,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2036-02-27 visible in Antarctica, Australia, New Zealand.",2036-02-27,2036,February,Antarctica|Australia|New Zealand
+34,Solar Eclipse,Partial Solar Eclipse,Partial solar eclipse occurring on 2036-07-23 visible in Atlantic.,2036-07-23,2036,July,Atlantic
+35,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2036-08-21 visible in Alaska, Canada, Arctic, Western Europe, Northwest Africa.",2036-08-21,2036,August,Alaska|Canada|Arctic|Western Europe|Northwest Africa
+36,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2037-01-16 visible in North Africa, Europe, Middle East, Asia.",2037-01-16,2037,January,North Africa|Europe|Middle East|Asia
+37,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2037-07-13 visible in Australia, New Zealand.",2037-07-13,2037,July,Australia|New Zealand
+38,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2038-01-05 visible in Cuba, Dominican Republic, Cote d'Ivoire, Ghana, Niger, Chad, Egypt.",2038-01-05,2038,January,Cuba|Dominican Republic|Cote d'Ivoire|Ghana|Niger|Chad|Egypt
+39,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2038-07-02 visible in Colombia, Venezuela, Mauritania, Morocco, Mali, Niger, Chad, Sudan, Ethiopia, Kenya.",2038-07-02,2038,July,Colombia|Venezuela|Mauritania|Morocco|Mali|Niger|Chad|Sudan|Ethiopia|Kenya
+40,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2038-12-26 visible in Australia, New Zealand, South Pacific.",2038-12-26,2038,December,Australia|New Zealand|South Pacific
+41,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2039-06-21 visible in Alaska, Canada, Norway, Sweden, Finland, Estonia, Russia.",2039-06-21,2039,June,Alaska|Canada|Norway|Sweden|Finland|Estonia|Russia
+42,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2039-12-15 visible in South America, Antarctica.",2039-12-15,2039,December,South America|Antarctica
+43,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2040-05-11 visible in Australia, New Zealand, Antarctica.",2040-05-11,2040,May,Australia|New Zealand|Antarctica
+44,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2040-11-04 visible in North America, Central America.",2040-11-04,2040,November,North America|Central America
+45,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2041-04-30 visible in Angola, Congo, Uganda, Kenya, Somalia.",2041-04-30,2041,April,Angola|Congo|Uganda|Kenya|Somalia
+46,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2041-10-25 visible in Mongolia, China, Korea, Japan.",2041-10-25,2041,October,Mongolia|China|Korea|Japan
+47,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2042-04-20 visible in Malaysia, Indonesia, Philippines.",2042-04-20,2042,April,Malaysia|Indonesia|Philippines
+48,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2042-10-14 visible in Thailand, Malaysia, Indonesia, Australia, New Zealand.",2042-10-14,2042,October,Thailand|Malaysia|Indonesia|Australia|New Zealand
+49,Solar Eclipse,Total Solar Eclipse,Total solar eclipse occurring on 2043-04-09 visible in Russia.,2043-04-09,2043,April,Russia
+50,Solar Eclipse,Annular Solar Eclipse,Annular solar eclipse occurring on 2043-10-03 visible in Indian Ocean.,2043-10-03,2043,October,Indian Ocean
+51,Solar Eclipse,Annular Solar Eclipse,Annular solar eclipse occurring on 2044-02-28 visible in Atlantic.,2044-02-28,2044,February,Atlantic
+52,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2044-08-23 visible in Greenland, Canada, Montana, North Dakota.",2044-08-23,2044,August,Greenland|Canada|Montana|North Dakota
+53,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2045-02-16 visible in New Zealand, Pacific.",2045-02-16,2045,February,New Zealand|Pacific
+54,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2045-08-12 visible in USA, Haiti, Dominican Republic, Venezuela, Guyana, French Guiana, Suriname, Brazil.",2045-08-12,2045,August,USA|Haiti|Dominican Republic|Venezuela|Guyana|French Guiana|Suriname|Brazil
+55,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2046-02-05 visible in Papua New Guinea, Hawaii, California, Oregon, Idaho.",2046-02-05,2046,February,Papua New Guinea|Hawaii|California|Oregon|Idaho
+56,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2046-08-02 visible in Brazil, Angola, Namibia, Botswana, South Africa, Swaziland, Mozambique.",2046-08-02,2046,August,Brazil|Angola|Namibia|Botswana|South Africa|Swaziland|Mozambique
+57,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2047-01-26 visible in Asia, Alaska.",2047-01-26,2047,January,Asia|Alaska
+58,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2047-06-23 visible in Canada, Greenland, Asia.",2047-06-23,2047,June,Canada|Greenland|Asia
+59,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2047-07-22 visible in Australia, New Zealand.",2047-07-22,2047,July,Australia|New Zealand
+60,Solar Eclipse,Partial Solar Eclipse,"Partial solar eclipse occurring on 2047-12-16 visible in Antarctica, Chile, Argentina.",2047-12-16,2047,December,Antarctica|Chile|Argentina
+61,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2048-06-11 visible in Midwest USA, Quebec, Greenland, Iceland, Norway, Sweden, Russia, Afghanistan.",2048-06-11,2048,June,Midwest USA|Quebec|Greenland|Iceland|Norway|Sweden|Russia|Afghanistan
+62,Solar Eclipse,Total Solar Eclipse,"Total solar eclipse occurring on 2048-12-05 visible in Chile, Argentina, Namibia, Botswana.",2048-12-05,2048,December,Chile|Argentina|Namibia|Botswana
+63,Solar Eclipse,Annular Solar Eclipse,"Annular solar eclipse occurring on 2049-05-31 visible in Peru, Ecuador, Colombia, Venezuela, Guyana, Senegal, Mali, Burkina Faso, Ghana, Nigeria.",2049-05-31,2049,May,Peru|Ecuador|Colombia|Venezuela|Guyana|Senegal|Mali|Burkina Faso|Ghana|Nigeria
+64,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2021-05-26 visible in Asia, Australia, Pacific, Americas.",2021-05-26,2021,May,Asia|Australia|Pacific|Americas
+65,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2021-11-19 visible in Americas, Europe, Asia, Australia, Pacific.",2021-11-19,2021,November,Americas|Europe|Asia|Australia|Pacific
+66,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2022-05-16 visible in Americas, Europe, Africa.",2022-05-16,2022,May,Americas|Europe|Africa
+67,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2022-11-08 visible in Asia, Australia, Pacific, Americas.",2022-11-08,2022,November,Asia|Australia|Pacific|Americas
+68,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2023-05-05 visible in Africa, Asia, Australia.",2023-05-05,2023,May,Africa|Asia|Australia
+69,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2023-10-28 visible in Americas, Europe, Africa, Asia, Australia.",2023-10-28,2023,October,Americas|Europe|Africa|Asia|Australia
+70,Lunar Eclipse,Penumbral Lunar Eclipse,Penumbral lunar eclipse occurring on 2024-03-25 visible in Americas.,2024-03-25,2024,March,Americas
+71,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2024-09-18 visible in Americas, Europe, Africa.",2024-09-18,2024,September,Americas|Europe|Africa
+72,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2025-03-14 visible in Pacific, Americas, Europe, Africa.",2025-03-14,2025,March,Pacific|Americas|Europe|Africa
+73,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2025-09-07 visible in Europe, Africa, Asia, Australia.",2025-09-07,2025,September,Europe|Africa|Asia|Australia
+74,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2026-03-03 visible in Asia, Australia, Pacific, Americas.",2026-03-03,2026,March,Asia|Australia|Pacific|Americas
+75,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2026-08-28 visible in Pacific, Americas, Europe, Africa.",2026-08-28,2026,August,Pacific|Americas|Europe|Africa
+76,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2027-02-20 visible in Americas, Europe, Africa, Asia.",2027-02-20,2027,February,Americas|Europe|Africa|Asia
+77,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2027-07-18 visible in Africa, Asia, Australia, Pacific.",2027-07-18,2027,July,Africa|Asia|Australia|Pacific
+78,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2027-08-17 visible in Pacific, Americas.",2027-08-17,2027,August,Pacific|Americas
+79,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2028-01-12 visible in Americas, Europe, Africa.",2028-01-12,2028,January,Americas|Europe|Africa
+80,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2028-07-06 visible in Europe, Africa, Asia, Australia.",2028-07-06,2028,July,Europe|Africa|Asia|Australia
+81,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2028-12-31 visible in Europe, Africa, Asia, Australia, Pacific.",2028-12-31,2028,December,Europe|Africa|Asia|Australia|Pacific
+82,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2029-06-26 visible in Americas, Europe, Africa, Middle East.",2029-06-26,2029,June,Americas|Europe|Africa|Middle East
+83,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2029-12-20 visible in Americas, Europe, Africa, Asia.",2029-12-20,2029,December,Americas|Europe|Africa|Asia
+84,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2030-06-15 visible in Europe, Africa, Asia, Australia.",2030-06-15,2030,June,Europe|Africa|Asia|Australia
+85,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2030-12-09 visible in Americas, Europe, Africa, Asia.",2030-12-09,2030,December,Americas|Europe|Africa|Asia
+86,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2031-05-07 visible in Americas, Europe, Africa.",2031-05-07,2031,May,Americas|Europe|Africa
+87,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2031-06-05 visible in East Indies, Australia, Pacific.",2031-06-05,2031,June,East Indies|Australia|Pacific
+88,Lunar Eclipse,Penumbral Lunar Eclipse,Penumbral lunar eclipse occurring on 2031-10-30 visible in Americas.,2031-10-30,2031,October,Americas
+89,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2032-04-25 visible in Africa, Asia, Australia, Pacific.",2032-04-25,2032,April,Africa|Asia|Australia|Pacific
+90,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2032-10-18 visible in Africa, Europe, Asia, Australia.",2032-10-18,2032,October,Africa|Europe|Asia|Australia
+91,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2033-04-14 visible in Europe, Africa, Asia, Australia.",2033-04-14,2033,April,Europe|Africa|Asia|Australia
+92,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2033-10-08 visible in Asia, Australia, Pacific, Americas.",2033-10-08,2033,October,Asia|Australia|Pacific|Americas
+93,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2034-04-03 visible in Europe, Africa, Asia, Australia.",2034-04-03,2034,April,Europe|Africa|Asia|Australia
+94,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2034-09-28 visible in Americas, Europe, Africa.",2034-09-28,2034,September,Americas|Europe|Africa
+95,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2035-02-22 visible in Asia, Pacific, Americas.",2035-02-22,2035,February,Asia|Pacific|Americas
+96,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2035-08-19 visible in Americas, Europe, Africa, Middle East.",2035-08-19,2035,August,Americas|Europe|Africa|Middle East
+97,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2036-02-11 visible in Americas, Europe, Africa, Asia, Australia.",2036-02-11,2036,February,Americas|Europe|Africa|Asia|Australia
+98,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2036-08-07 visible in Americas, Europe, Africa, Asia.",2036-08-07,2036,August,Americas|Europe|Africa|Asia
+99,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2037-01-31 visible in Europe, Africa, Asia, Australia, Pacific.",2037-01-31,2037,January,Europe|Africa|Asia|Australia|Pacific
+100,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2037-07-27 visible in Americas, Europe, Africa.",2037-07-27,2037,July,Americas|Europe|Africa
+101,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2038-01-21 visible in Americas, Europe, Africa.",2038-01-21,2038,January,Americas|Europe|Africa
+102,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2038-06-17 visible in North America, South America, Africa, Europe.",2038-06-17,2038,June,North America|South America|Africa|Europe
+103,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2038-07-16 visible in Australia, Asia, Pacific, Americas.",2038-07-16,2038,July,Australia|Asia|Pacific|Americas
+104,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2038-12-11 visible in Europe, Africa, Asia, Australia.",2038-12-11,2038,December,Europe|Africa|Asia|Australia
+105,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2039-06-06 visible in Europe, Africa, Asia, Australia.",2039-06-06,2039,June,Europe|Africa|Asia|Australia
+106,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2039-11-30 visible in Europe, Africa, Asia, Australia, Pacific.",2039-11-30,2039,November,Europe|Africa|Asia|Australia|Pacific
+107,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2040-05-26 visible in Asia, Australia, Pacific, Americas.",2040-05-26,2040,May,Asia|Australia|Pacific|Americas
+108,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2040-11-18 visible in Americas, Europe, Africa, Asia, Australia.",2040-11-18,2040,November,Americas|Europe|Africa|Asia|Australia
+109,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2041-05-16 visible in Americas, Europe, Africa, Asia.",2041-05-16,2041,May,Americas|Europe|Africa|Asia
+110,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2041-11-08 visible in Americas, Europe, Africa.",2041-11-08,2041,November,Americas|Europe|Africa
+111,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2042-04-05 visible in Asia, Australia, Pacific.",2042-04-05,2042,April,Asia|Australia|Pacific
+112,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2042-09-29 visible in Asia, Australia, Pacific, Americas.",2042-09-29,2042,September,Asia|Australia|Pacific|Americas
+113,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2043-03-25 visible in Africa, Europe, Asia, Australia, Pacific.",2043-03-25,2043,March,Africa|Europe|Asia|Australia|Pacific
+114,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2043-09-19 visible in Americas, Europe, Africa, Asia.",2043-09-19,2043,September,Americas|Europe|Africa|Asia
+115,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2044-03-13 visible in South America, Europe, Africa, Asia, Australia.",2044-03-13,2044,March,South America|Europe|Africa|Asia|Australia
+116,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2044-09-07 visible in Asia, Australia, Pacific, Americas.",2044-09-07,2044,September,Asia|Australia|Pacific|Americas
+117,Lunar Eclipse,Penumbral Lunar Eclipse,Penumbral lunar eclipse occurring on 2045-03-03 visible in Americas.,2045-03-03,2045,March,Americas
+118,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2045-08-27 visible in Asia, Australia, North America.",2045-08-27,2045,August,Asia|Australia|North America
+119,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2046-01-22 visible in Asia, Australia, North America.",2046-01-22,2046,January,Asia|Australia|North America
+120,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2046-07-18 visible in Americas, Europe, Africa, Asia.",2046-07-18,2046,July,Americas|Europe|Africa|Asia
+121,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2047-01-12 visible in Americas, Europe, Africa, Asia.",2047-01-12,2047,January,Americas|Europe|Africa|Asia
+122,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2047-07-07 visible in Asia, Australia, Pacific, Americas.",2047-07-07,2047,July,Asia|Australia|Pacific|Americas
+123,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2048-01-01 visible in Asia, Pacific, Americas, Europe, Africa.",2048-01-01,2048,January,Asia|Pacific|Americas|Europe|Africa
+124,Lunar Eclipse,Partial Lunar Eclipse,"Partial lunar eclipse occurring on 2048-06-26 visible in Americas, Europe, Africa.",2048-06-26,2048,June,Americas|Europe|Africa
+125,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2048-12-20 visible in Americas, Europe, Africa.",2048-12-20,2048,December,Americas|Europe|Africa
+126,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2049-05-17 visible in Asia, Australia, Pacific, Americas.",2049-05-17,2049,May,Asia|Australia|Pacific|Americas
+127,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2049-06-15 visible in Europe, Africa, Asia, Australia.",2049-06-15,2049,June,Europe|Africa|Asia|Australia
+128,Lunar Eclipse,Penumbral Lunar Eclipse,"Penumbral lunar eclipse occurring on 2049-11-09 visible in Europe, Africa, Asia, Australia, Pacific.",2049-11-09,2049,November,Europe|Africa|Asia|Australia|Pacific
+129,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2050-05-06 visible in Americas, Europe, Africa, Asia, Australia.",2050-05-06,2050,May,Americas|Europe|Africa|Asia|Australia
+130,Lunar Eclipse,Total Lunar Eclipse,"Total lunar eclipse occurring on 2050-10-30 visible in Americas, Europe, Africa, Asia.",2050-10-30,2050,October,Americas|Europe|Africa|Asia
+131,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2021, visible globally under clear skies.",2021-01-03,2021,January,Global
+132,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2021, visible globally under clear skies.",2021-04-22,2021,April,Global
+133,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2021, visible globally under clear skies.",2021-05-06,2021,May,Global
+134,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2021, visible globally under clear skies.",2021-08-12,2021,August,Global
+135,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2021, visible globally under clear skies.",2021-10-08,2021,October,Global
+136,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2021, visible globally under clear skies.",2021-10-21,2021,October,Global
+137,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2021, visible globally under clear skies.",2021-11-17,2021,November,Global
+138,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2021, visible globally under clear skies.",2021-12-14,2021,December,Global
+139,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2021, visible globally under clear skies.",2021-12-22,2021,December,Global
+140,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2022, visible globally under clear skies.",2022-01-03,2022,January,Global
+141,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2022, visible globally under clear skies.",2022-04-22,2022,April,Global
+142,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2022, visible globally under clear skies.",2022-05-06,2022,May,Global
+143,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2022, visible globally under clear skies.",2022-08-12,2022,August,Global
+144,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2022, visible globally under clear skies.",2022-10-08,2022,October,Global
+145,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2022, visible globally under clear skies.",2022-10-21,2022,October,Global
+146,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2022, visible globally under clear skies.",2022-11-17,2022,November,Global
+147,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2022, visible globally under clear skies.",2022-12-14,2022,December,Global
+148,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2022, visible globally under clear skies.",2022-12-22,2022,December,Global
+149,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2023, visible globally under clear skies.",2023-01-03,2023,January,Global
+150,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2023, visible globally under clear skies.",2023-04-22,2023,April,Global
+151,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2023, visible globally under clear skies.",2023-05-06,2023,May,Global
+152,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2023, visible globally under clear skies.",2023-08-12,2023,August,Global
+153,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2023, visible globally under clear skies.",2023-10-08,2023,October,Global
+154,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2023, visible globally under clear skies.",2023-10-21,2023,October,Global
+155,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2023, visible globally under clear skies.",2023-11-17,2023,November,Global
+156,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2023, visible globally under clear skies.",2023-12-14,2023,December,Global
+157,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2023, visible globally under clear skies.",2023-12-22,2023,December,Global
+158,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2024, visible globally under clear skies.",2024-01-03,2024,January,Global
+159,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2024, visible globally under clear skies.",2024-04-22,2024,April,Global
+160,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2024, visible globally under clear skies.",2024-05-06,2024,May,Global
+161,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2024, visible globally under clear skies.",2024-08-12,2024,August,Global
+162,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2024, visible globally under clear skies.",2024-10-08,2024,October,Global
+163,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2024, visible globally under clear skies.",2024-10-21,2024,October,Global
+164,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2024, visible globally under clear skies.",2024-11-17,2024,November,Global
+165,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2024, visible globally under clear skies.",2024-12-14,2024,December,Global
+166,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2024, visible globally under clear skies.",2024-12-22,2024,December,Global
+167,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2025, visible globally under clear skies.",2025-01-03,2025,January,Global
+168,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2025, visible globally under clear skies.",2025-04-22,2025,April,Global
+169,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2025, visible globally under clear skies.",2025-05-06,2025,May,Global
+170,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2025, visible globally under clear skies.",2025-08-12,2025,August,Global
+171,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2025, visible globally under clear skies.",2025-10-08,2025,October,Global
+172,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2025, visible globally under clear skies.",2025-10-21,2025,October,Global
+173,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2025, visible globally under clear skies.",2025-11-17,2025,November,Global
+174,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2025, visible globally under clear skies.",2025-12-14,2025,December,Global
+175,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2025, visible globally under clear skies.",2025-12-22,2025,December,Global
+176,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2026, visible globally under clear skies.",2026-01-03,2026,January,Global
+177,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2026, visible globally under clear skies.",2026-04-22,2026,April,Global
+178,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2026, visible globally under clear skies.",2026-05-06,2026,May,Global
+179,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2026, visible globally under clear skies.",2026-08-12,2026,August,Global
+180,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2026, visible globally under clear skies.",2026-10-08,2026,October,Global
+181,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2026, visible globally under clear skies.",2026-10-21,2026,October,Global
+182,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2026, visible globally under clear skies.",2026-11-17,2026,November,Global
+183,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2026, visible globally under clear skies.",2026-12-14,2026,December,Global
+184,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2026, visible globally under clear skies.",2026-12-22,2026,December,Global
+185,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2027, visible globally under clear skies.",2027-01-03,2027,January,Global
+186,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2027, visible globally under clear skies.",2027-04-22,2027,April,Global
+187,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2027, visible globally under clear skies.",2027-05-06,2027,May,Global
+188,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2027, visible globally under clear skies.",2027-08-12,2027,August,Global
+189,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2027, visible globally under clear skies.",2027-10-08,2027,October,Global
+190,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2027, visible globally under clear skies.",2027-10-21,2027,October,Global
+191,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2027, visible globally under clear skies.",2027-11-17,2027,November,Global
+192,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2027, visible globally under clear skies.",2027-12-14,2027,December,Global
+193,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2027, visible globally under clear skies.",2027-12-22,2027,December,Global
+194,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2028, visible globally under clear skies.",2028-01-03,2028,January,Global
+195,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2028, visible globally under clear skies.",2028-04-22,2028,April,Global
+196,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2028, visible globally under clear skies.",2028-05-06,2028,May,Global
+197,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2028, visible globally under clear skies.",2028-08-12,2028,August,Global
+198,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2028, visible globally under clear skies.",2028-10-08,2028,October,Global
+199,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2028, visible globally under clear skies.",2028-10-21,2028,October,Global
+200,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2028, visible globally under clear skies.",2028-11-17,2028,November,Global
+201,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2028, visible globally under clear skies.",2028-12-14,2028,December,Global
+202,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2028, visible globally under clear skies.",2028-12-22,2028,December,Global
+203,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2029, visible globally under clear skies.",2029-01-03,2029,January,Global
+204,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2029, visible globally under clear skies.",2029-04-22,2029,April,Global
+205,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2029, visible globally under clear skies.",2029-05-06,2029,May,Global
+206,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2029, visible globally under clear skies.",2029-08-12,2029,August,Global
+207,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2029, visible globally under clear skies.",2029-10-08,2029,October,Global
+208,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2029, visible globally under clear skies.",2029-10-21,2029,October,Global
+209,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2029, visible globally under clear skies.",2029-11-17,2029,November,Global
+210,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2029, visible globally under clear skies.",2029-12-14,2029,December,Global
+211,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2029, visible globally under clear skies.",2029-12-22,2029,December,Global
+212,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2030, visible globally under clear skies.",2030-01-03,2030,January,Global
+213,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2030, visible globally under clear skies.",2030-04-22,2030,April,Global
+214,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2030, visible globally under clear skies.",2030-05-06,2030,May,Global
+215,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2030, visible globally under clear skies.",2030-08-12,2030,August,Global
+216,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2030, visible globally under clear skies.",2030-10-08,2030,October,Global
+217,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2030, visible globally under clear skies.",2030-10-21,2030,October,Global
+218,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2030, visible globally under clear skies.",2030-11-17,2030,November,Global
+219,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2030, visible globally under clear skies.",2030-12-14,2030,December,Global
+220,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2030, visible globally under clear skies.",2030-12-22,2030,December,Global
+221,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2031, visible globally under clear skies.",2031-01-03,2031,January,Global
+222,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2031, visible globally under clear skies.",2031-04-22,2031,April,Global
+223,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2031, visible globally under clear skies.",2031-05-06,2031,May,Global
+224,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2031, visible globally under clear skies.",2031-08-12,2031,August,Global
+225,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2031, visible globally under clear skies.",2031-10-08,2031,October,Global
+226,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2031, visible globally under clear skies.",2031-10-21,2031,October,Global
+227,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2031, visible globally under clear skies.",2031-11-17,2031,November,Global
+228,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2031, visible globally under clear skies.",2031-12-14,2031,December,Global
+229,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2031, visible globally under clear skies.",2031-12-22,2031,December,Global
+230,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2032, visible globally under clear skies.",2032-01-03,2032,January,Global
+231,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2032, visible globally under clear skies.",2032-04-22,2032,April,Global
+232,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2032, visible globally under clear skies.",2032-05-06,2032,May,Global
+233,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2032, visible globally under clear skies.",2032-08-12,2032,August,Global
+234,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2032, visible globally under clear skies.",2032-10-08,2032,October,Global
+235,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2032, visible globally under clear skies.",2032-10-21,2032,October,Global
+236,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2032, visible globally under clear skies.",2032-11-17,2032,November,Global
+237,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2032, visible globally under clear skies.",2032-12-14,2032,December,Global
+238,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2032, visible globally under clear skies.",2032-12-22,2032,December,Global
+239,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2033, visible globally under clear skies.",2033-01-03,2033,January,Global
+240,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2033, visible globally under clear skies.",2033-04-22,2033,April,Global
+241,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2033, visible globally under clear skies.",2033-05-06,2033,May,Global
+242,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2033, visible globally under clear skies.",2033-08-12,2033,August,Global
+243,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2033, visible globally under clear skies.",2033-10-08,2033,October,Global
+244,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2033, visible globally under clear skies.",2033-10-21,2033,October,Global
+245,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2033, visible globally under clear skies.",2033-11-17,2033,November,Global
+246,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2033, visible globally under clear skies.",2033-12-14,2033,December,Global
+247,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2033, visible globally under clear skies.",2033-12-22,2033,December,Global
+248,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2034, visible globally under clear skies.",2034-01-03,2034,January,Global
+249,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2034, visible globally under clear skies.",2034-04-22,2034,April,Global
+250,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2034, visible globally under clear skies.",2034-05-06,2034,May,Global
+251,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2034, visible globally under clear skies.",2034-08-12,2034,August,Global
+252,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2034, visible globally under clear skies.",2034-10-08,2034,October,Global
+253,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2034, visible globally under clear skies.",2034-10-21,2034,October,Global
+254,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2034, visible globally under clear skies.",2034-11-17,2034,November,Global
+255,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2034, visible globally under clear skies.",2034-12-14,2034,December,Global
+256,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2034, visible globally under clear skies.",2034-12-22,2034,December,Global
+257,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2035, visible globally under clear skies.",2035-01-03,2035,January,Global
+258,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2035, visible globally under clear skies.",2035-04-22,2035,April,Global
+259,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2035, visible globally under clear skies.",2035-05-06,2035,May,Global
+260,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2035, visible globally under clear skies.",2035-08-12,2035,August,Global
+261,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2035, visible globally under clear skies.",2035-10-08,2035,October,Global
+262,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2035, visible globally under clear skies.",2035-10-21,2035,October,Global
+263,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2035, visible globally under clear skies.",2035-11-17,2035,November,Global
+264,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2035, visible globally under clear skies.",2035-12-14,2035,December,Global
+265,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2035, visible globally under clear skies.",2035-12-22,2035,December,Global
+266,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2036, visible globally under clear skies.",2036-01-03,2036,January,Global
+267,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2036, visible globally under clear skies.",2036-04-22,2036,April,Global
+268,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2036, visible globally under clear skies.",2036-05-06,2036,May,Global
+269,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2036, visible globally under clear skies.",2036-08-12,2036,August,Global
+270,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2036, visible globally under clear skies.",2036-10-08,2036,October,Global
+271,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2036, visible globally under clear skies.",2036-10-21,2036,October,Global
+272,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2036, visible globally under clear skies.",2036-11-17,2036,November,Global
+273,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2036, visible globally under clear skies.",2036-12-14,2036,December,Global
+274,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2036, visible globally under clear skies.",2036-12-22,2036,December,Global
+275,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2037, visible globally under clear skies.",2037-01-03,2037,January,Global
+276,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2037, visible globally under clear skies.",2037-04-22,2037,April,Global
+277,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2037, visible globally under clear skies.",2037-05-06,2037,May,Global
+278,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2037, visible globally under clear skies.",2037-08-12,2037,August,Global
+279,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2037, visible globally under clear skies.",2037-10-08,2037,October,Global
+280,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2037, visible globally under clear skies.",2037-10-21,2037,October,Global
+281,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2037, visible globally under clear skies.",2037-11-17,2037,November,Global
+282,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2037, visible globally under clear skies.",2037-12-14,2037,December,Global
+283,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2037, visible globally under clear skies.",2037-12-22,2037,December,Global
+284,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2038, visible globally under clear skies.",2038-01-03,2038,January,Global
+285,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2038, visible globally under clear skies.",2038-04-22,2038,April,Global
+286,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2038, visible globally under clear skies.",2038-05-06,2038,May,Global
+287,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2038, visible globally under clear skies.",2038-08-12,2038,August,Global
+288,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2038, visible globally under clear skies.",2038-10-08,2038,October,Global
+289,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2038, visible globally under clear skies.",2038-10-21,2038,October,Global
+290,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2038, visible globally under clear skies.",2038-11-17,2038,November,Global
+291,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2038, visible globally under clear skies.",2038-12-14,2038,December,Global
+292,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2038, visible globally under clear skies.",2038-12-22,2038,December,Global
+293,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2039, visible globally under clear skies.",2039-01-03,2039,January,Global
+294,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2039, visible globally under clear skies.",2039-04-22,2039,April,Global
+295,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2039, visible globally under clear skies.",2039-05-06,2039,May,Global
+296,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2039, visible globally under clear skies.",2039-08-12,2039,August,Global
+297,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2039, visible globally under clear skies.",2039-10-08,2039,October,Global
+298,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2039, visible globally under clear skies.",2039-10-21,2039,October,Global
+299,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2039, visible globally under clear skies.",2039-11-17,2039,November,Global
+300,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2039, visible globally under clear skies.",2039-12-14,2039,December,Global
+301,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2039, visible globally under clear skies.",2039-12-22,2039,December,Global
+302,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2040, visible globally under clear skies.",2040-01-03,2040,January,Global
+303,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2040, visible globally under clear skies.",2040-04-22,2040,April,Global
+304,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2040, visible globally under clear skies.",2040-05-06,2040,May,Global
+305,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2040, visible globally under clear skies.",2040-08-12,2040,August,Global
+306,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2040, visible globally under clear skies.",2040-10-08,2040,October,Global
+307,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2040, visible globally under clear skies.",2040-10-21,2040,October,Global
+308,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2040, visible globally under clear skies.",2040-11-17,2040,November,Global
+309,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2040, visible globally under clear skies.",2040-12-14,2040,December,Global
+310,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2040, visible globally under clear skies.",2040-12-22,2040,December,Global
+311,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2041, visible globally under clear skies.",2041-01-03,2041,January,Global
+312,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2041, visible globally under clear skies.",2041-04-22,2041,April,Global
+313,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2041, visible globally under clear skies.",2041-05-06,2041,May,Global
+314,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2041, visible globally under clear skies.",2041-08-12,2041,August,Global
+315,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2041, visible globally under clear skies.",2041-10-08,2041,October,Global
+316,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2041, visible globally under clear skies.",2041-10-21,2041,October,Global
+317,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2041, visible globally under clear skies.",2041-11-17,2041,November,Global
+318,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2041, visible globally under clear skies.",2041-12-14,2041,December,Global
+319,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2041, visible globally under clear skies.",2041-12-22,2041,December,Global
+320,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2042, visible globally under clear skies.",2042-01-03,2042,January,Global
+321,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2042, visible globally under clear skies.",2042-04-22,2042,April,Global
+322,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2042, visible globally under clear skies.",2042-05-06,2042,May,Global
+323,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2042, visible globally under clear skies.",2042-08-12,2042,August,Global
+324,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2042, visible globally under clear skies.",2042-10-08,2042,October,Global
+325,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2042, visible globally under clear skies.",2042-10-21,2042,October,Global
+326,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2042, visible globally under clear skies.",2042-11-17,2042,November,Global
+327,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2042, visible globally under clear skies.",2042-12-14,2042,December,Global
+328,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2042, visible globally under clear skies.",2042-12-22,2042,December,Global
+329,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2043, visible globally under clear skies.",2043-01-03,2043,January,Global
+330,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2043, visible globally under clear skies.",2043-04-22,2043,April,Global
+331,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2043, visible globally under clear skies.",2043-05-06,2043,May,Global
+332,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2043, visible globally under clear skies.",2043-08-12,2043,August,Global
+333,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2043, visible globally under clear skies.",2043-10-08,2043,October,Global
+334,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2043, visible globally under clear skies.",2043-10-21,2043,October,Global
+335,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2043, visible globally under clear skies.",2043-11-17,2043,November,Global
+336,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2043, visible globally under clear skies.",2043-12-14,2043,December,Global
+337,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2043, visible globally under clear skies.",2043-12-22,2043,December,Global
+338,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2044, visible globally under clear skies.",2044-01-03,2044,January,Global
+339,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2044, visible globally under clear skies.",2044-04-22,2044,April,Global
+340,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2044, visible globally under clear skies.",2044-05-06,2044,May,Global
+341,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2044, visible globally under clear skies.",2044-08-12,2044,August,Global
+342,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2044, visible globally under clear skies.",2044-10-08,2044,October,Global
+343,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2044, visible globally under clear skies.",2044-10-21,2044,October,Global
+344,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2044, visible globally under clear skies.",2044-11-17,2044,November,Global
+345,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2044, visible globally under clear skies.",2044-12-14,2044,December,Global
+346,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2044, visible globally under clear skies.",2044-12-22,2044,December,Global
+347,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2045, visible globally under clear skies.",2045-01-03,2045,January,Global
+348,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2045, visible globally under clear skies.",2045-04-22,2045,April,Global
+349,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2045, visible globally under clear skies.",2045-05-06,2045,May,Global
+350,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2045, visible globally under clear skies.",2045-08-12,2045,August,Global
+351,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2045, visible globally under clear skies.",2045-10-08,2045,October,Global
+352,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2045, visible globally under clear skies.",2045-10-21,2045,October,Global
+353,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2045, visible globally under clear skies.",2045-11-17,2045,November,Global
+354,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2045, visible globally under clear skies.",2045-12-14,2045,December,Global
+355,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2045, visible globally under clear skies.",2045-12-22,2045,December,Global
+356,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2046, visible globally under clear skies.",2046-01-03,2046,January,Global
+357,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2046, visible globally under clear skies.",2046-04-22,2046,April,Global
+358,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2046, visible globally under clear skies.",2046-05-06,2046,May,Global
+359,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2046, visible globally under clear skies.",2046-08-12,2046,August,Global
+360,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2046, visible globally under clear skies.",2046-10-08,2046,October,Global
+361,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2046, visible globally under clear skies.",2046-10-21,2046,October,Global
+362,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2046, visible globally under clear skies.",2046-11-17,2046,November,Global
+363,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2046, visible globally under clear skies.",2046-12-14,2046,December,Global
+364,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2046, visible globally under clear skies.",2046-12-22,2046,December,Global
+365,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2047, visible globally under clear skies.",2047-01-03,2047,January,Global
+366,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2047, visible globally under clear skies.",2047-04-22,2047,April,Global
+367,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2047, visible globally under clear skies.",2047-05-06,2047,May,Global
+368,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2047, visible globally under clear skies.",2047-08-12,2047,August,Global
+369,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2047, visible globally under clear skies.",2047-10-08,2047,October,Global
+370,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2047, visible globally under clear skies.",2047-10-21,2047,October,Global
+371,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2047, visible globally under clear skies.",2047-11-17,2047,November,Global
+372,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2047, visible globally under clear skies.",2047-12-14,2047,December,Global
+373,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2047, visible globally under clear skies.",2047-12-22,2047,December,Global
+374,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2048, visible globally under clear skies.",2048-01-03,2048,January,Global
+375,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2048, visible globally under clear skies.",2048-04-22,2048,April,Global
+376,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2048, visible globally under clear skies.",2048-05-06,2048,May,Global
+377,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2048, visible globally under clear skies.",2048-08-12,2048,August,Global
+378,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2048, visible globally under clear skies.",2048-10-08,2048,October,Global
+379,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2048, visible globally under clear skies.",2048-10-21,2048,October,Global
+380,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2048, visible globally under clear skies.",2048-11-17,2048,November,Global
+381,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2048, visible globally under clear skies.",2048-12-14,2048,December,Global
+382,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2048, visible globally under clear skies.",2048-12-22,2048,December,Global
+383,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2049, visible globally under clear skies.",2049-01-03,2049,January,Global
+384,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2049, visible globally under clear skies.",2049-04-22,2049,April,Global
+385,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2049, visible globally under clear skies.",2049-05-06,2049,May,Global
+386,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2049, visible globally under clear skies.",2049-08-12,2049,August,Global
+387,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2049, visible globally under clear skies.",2049-10-08,2049,October,Global
+388,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2049, visible globally under clear skies.",2049-10-21,2049,October,Global
+389,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2049, visible globally under clear skies.",2049-11-17,2049,November,Global
+390,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2049, visible globally under clear skies.",2049-12-14,2049,December,Global
+391,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2049, visible globally under clear skies.",2049-12-22,2049,December,Global
+392,Meteor Shower,Quadrantids Meteor Shower,"Quadrantids meteor shower peaking in January 2050, visible globally under clear skies.",2050-01-03,2050,January,Global
+393,Meteor Shower,Lyrids Meteor Shower,"Lyrids meteor shower peaking in April 2050, visible globally under clear skies.",2050-04-22,2050,April,Global
+394,Meteor Shower,Eta Aquariids Meteor Shower,"Eta Aquariids meteor shower peaking in May 2050, visible globally under clear skies.",2050-05-06,2050,May,Global
+395,Meteor Shower,Perseids Meteor Shower,"Perseids meteor shower peaking in August 2050, visible globally under clear skies.",2050-08-12,2050,August,Global
+396,Meteor Shower,Draconids Meteor Shower,"Draconids meteor shower peaking in October 2050, visible globally under clear skies.",2050-10-08,2050,October,Global
+397,Meteor Shower,Orionids Meteor Shower,"Orionids meteor shower peaking in October 2050, visible globally under clear skies.",2050-10-21,2050,October,Global
+398,Meteor Shower,Leonids Meteor Shower,"Leonids meteor shower peaking in November 2050, visible globally under clear skies.",2050-11-17,2050,November,Global
+399,Meteor Shower,Geminids Meteor Shower,"Geminids meteor shower peaking in December 2050, visible globally under clear skies.",2050-12-14,2050,December,Global
+400,Meteor Shower,Ursids Meteor Shower,"Ursids meteor shower peaking in December 2050, visible globally under clear skies.",2050-12-22,2050,December,Global
+401,Planetary Transit,Transit of Mercury,Mercury transit across the Sun visible from regions of Earth where the Sun is above the horizon.,2032-11-13,2032,November,Global (daylight regions only)
+402,Planetary Transit,Transit of Mercury,Mercury transit across the Sun visible from regions of Earth where the Sun is above the horizon.,2039-11-07,2039,November,Global (daylight regions only)
+403,Planetary Transit,Transit of Mercury,Mercury transit across the Sun visible from regions of Earth where the Sun is above the horizon.,2049-05-07,2049,May,Global (daylight regions only)
+404,Planetary Conjunction,Six-Planet Morning Alignment,Six planets and the Moon visible simultaneously in the morning sky.,2025-08-01,2025,August,Global (clear sky conditions required)
+405,Planetary Conjunction,Six-Planet Evening Alignment,"Rare planetary parade featuring Mercury, Venus, Jupiter, Saturn, Uranus, and Neptune visible shortly after sunset.",2026-02-28,2026,February,Global (clear sky conditions required)
+406,Planetary Conjunction,Seven-Planet Alignment,Seven planets visible one hour before sunrise.,2028-10-22,2028,October,Global (clear sky conditions required)
+407,Planetary Conjunction,Golden Planetary Conjunction,"Five visible planets (Mercury, Venus, Mars, Jupiter, Saturn) and a crescent Moon clustering within a small region of the sky.",2040-09-08,2040,September,Global (clear sky conditions required)

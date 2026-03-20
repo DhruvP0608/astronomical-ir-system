@@ -1,0 +1,271 @@
+event_id,event_name,event_type,description,date,year,month,visibility_regions
+1,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2021, visible globally under clear skies.",2021-01-03,2021,January,Global
+2,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2021, visible globally under clear skies.",2021-04-22,2021,April,Global
+3,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2021, visible globally under clear skies.",2021-05-06,2021,May,Global
+4,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2021, visible globally under clear skies.",2021-08-12,2021,August,Global
+5,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2021, visible globally under clear skies.",2021-10-08,2021,October,Global
+6,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2021, visible globally under clear skies.",2021-10-21,2021,October,Global
+7,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2021, visible globally under clear skies.",2021-11-17,2021,November,Global
+8,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2021, visible globally under clear skies.",2021-12-14,2021,December,Global
+9,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2021, visible globally under clear skies.",2021-12-22,2021,December,Global
+10,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2022, visible globally under clear skies.",2022-01-03,2022,January,Global
+11,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2022, visible globally under clear skies.",2022-04-22,2022,April,Global
+12,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2022, visible globally under clear skies.",2022-05-06,2022,May,Global
+13,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2022, visible globally under clear skies.",2022-08-12,2022,August,Global
+14,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2022, visible globally under clear skies.",2022-10-08,2022,October,Global
+15,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2022, visible globally under clear skies.",2022-10-21,2022,October,Global
+16,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2022, visible globally under clear skies.",2022-11-17,2022,November,Global
+17,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2022, visible globally under clear skies.",2022-12-14,2022,December,Global
+18,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2022, visible globally under clear skies.",2022-12-22,2022,December,Global
+19,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2023, visible globally under clear skies.",2023-01-03,2023,January,Global
+20,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2023, visible globally under clear skies.",2023-04-22,2023,April,Global
+21,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2023, visible globally under clear skies.",2023-05-06,2023,May,Global
+22,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2023, visible globally under clear skies.",2023-08-12,2023,August,Global
+23,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2023, visible globally under clear skies.",2023-10-08,2023,October,Global
+24,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2023, visible globally under clear skies.",2023-10-21,2023,October,Global
+25,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2023, visible globally under clear skies.",2023-11-17,2023,November,Global
+26,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2023, visible globally under clear skies.",2023-12-14,2023,December,Global
+27,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2023, visible globally under clear skies.",2023-12-22,2023,December,Global
+28,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2024, visible globally under clear skies.",2024-01-03,2024,January,Global
+29,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2024, visible globally under clear skies.",2024-04-22,2024,April,Global
+30,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2024, visible globally under clear skies.",2024-05-06,2024,May,Global
+31,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2024, visible globally under clear skies.",2024-08-12,2024,August,Global
+32,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2024, visible globally under clear skies.",2024-10-08,2024,October,Global
+33,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2024, visible globally under clear skies.",2024-10-21,2024,October,Global
+34,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2024, visible globally under clear skies.",2024-11-17,2024,November,Global
+35,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2024, visible globally under clear skies.",2024-12-14,2024,December,Global
+36,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2024, visible globally under clear skies.",2024-12-22,2024,December,Global
+37,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2025, visible globally under clear skies.",2025-01-03,2025,January,Global
+38,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2025, visible globally under clear skies.",2025-04-22,2025,April,Global
+39,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2025, visible globally under clear skies.",2025-05-06,2025,May,Global
+40,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2025, visible globally under clear skies.",2025-08-12,2025,August,Global
+41,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2025, visible globally under clear skies.",2025-10-08,2025,October,Global
+42,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2025, visible globally under clear skies.",2025-10-21,2025,October,Global
+43,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2025, visible globally under clear skies.",2025-11-17,2025,November,Global
+44,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2025, visible globally under clear skies.",2025-12-14,2025,December,Global
+45,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2025, visible globally under clear skies.",2025-12-22,2025,December,Global
+46,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2026, visible globally under clear skies.",2026-01-03,2026,January,Global
+47,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2026, visible globally under clear skies.",2026-04-22,2026,April,Global
+48,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2026, visible globally under clear skies.",2026-05-06,2026,May,Global
+49,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2026, visible globally under clear skies.",2026-08-12,2026,August,Global
+50,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2026, visible globally under clear skies.",2026-10-08,2026,October,Global
+51,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2026, visible globally under clear skies.",2026-10-21,2026,October,Global
+52,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2026, visible globally under clear skies.",2026-11-17,2026,November,Global
+53,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2026, visible globally under clear skies.",2026-12-14,2026,December,Global
+54,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2026, visible globally under clear skies.",2026-12-22,2026,December,Global
+55,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2027, visible globally under clear skies.",2027-01-03,2027,January,Global
+56,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2027, visible globally under clear skies.",2027-04-22,2027,April,Global
+57,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2027, visible globally under clear skies.",2027-05-06,2027,May,Global
+58,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2027, visible globally under clear skies.",2027-08-12,2027,August,Global
+59,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2027, visible globally under clear skies.",2027-10-08,2027,October,Global
+60,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2027, visible globally under clear skies.",2027-10-21,2027,October,Global
+61,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2027, visible globally under clear skies.",2027-11-17,2027,November,Global
+62,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2027, visible globally under clear skies.",2027-12-14,2027,December,Global
+63,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2027, visible globally under clear skies.",2027-12-22,2027,December,Global
+64,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2028, visible globally under clear skies.",2028-01-03,2028,January,Global
+65,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2028, visible globally under clear skies.",2028-04-22,2028,April,Global
+66,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2028, visible globally under clear skies.",2028-05-06,2028,May,Global
+67,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2028, visible globally under clear skies.",2028-08-12,2028,August,Global
+68,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2028, visible globally under clear skies.",2028-10-08,2028,October,Global
+69,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2028, visible globally under clear skies.",2028-10-21,2028,October,Global
+70,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2028, visible globally under clear skies.",2028-11-17,2028,November,Global
+71,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2028, visible globally under clear skies.",2028-12-14,2028,December,Global
+72,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2028, visible globally under clear skies.",2028-12-22,2028,December,Global
+73,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2029, visible globally under clear skies.",2029-01-03,2029,January,Global
+74,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2029, visible globally under clear skies.",2029-04-22,2029,April,Global
+75,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2029, visible globally under clear skies.",2029-05-06,2029,May,Global
+76,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2029, visible globally under clear skies.",2029-08-12,2029,August,Global
+77,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2029, visible globally under clear skies.",2029-10-08,2029,October,Global
+78,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2029, visible globally under clear skies.",2029-10-21,2029,October,Global
+79,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2029, visible globally under clear skies.",2029-11-17,2029,November,Global
+80,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2029, visible globally under clear skies.",2029-12-14,2029,December,Global
+81,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2029, visible globally under clear skies.",2029-12-22,2029,December,Global
+82,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2030, visible globally under clear skies.",2030-01-03,2030,January,Global
+83,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2030, visible globally under clear skies.",2030-04-22,2030,April,Global
+84,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2030, visible globally under clear skies.",2030-05-06,2030,May,Global
+85,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2030, visible globally under clear skies.",2030-08-12,2030,August,Global
+86,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2030, visible globally under clear skies.",2030-10-08,2030,October,Global
+87,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2030, visible globally under clear skies.",2030-10-21,2030,October,Global
+88,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2030, visible globally under clear skies.",2030-11-17,2030,November,Global
+89,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2030, visible globally under clear skies.",2030-12-14,2030,December,Global
+90,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2030, visible globally under clear skies.",2030-12-22,2030,December,Global
+91,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2031, visible globally under clear skies.",2031-01-03,2031,January,Global
+92,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2031, visible globally under clear skies.",2031-04-22,2031,April,Global
+93,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2031, visible globally under clear skies.",2031-05-06,2031,May,Global
+94,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2031, visible globally under clear skies.",2031-08-12,2031,August,Global
+95,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2031, visible globally under clear skies.",2031-10-08,2031,October,Global
+96,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2031, visible globally under clear skies.",2031-10-21,2031,October,Global
+97,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2031, visible globally under clear skies.",2031-11-17,2031,November,Global
+98,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2031, visible globally under clear skies.",2031-12-14,2031,December,Global
+99,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2031, visible globally under clear skies.",2031-12-22,2031,December,Global
+100,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2032, visible globally under clear skies.",2032-01-03,2032,January,Global
+101,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2032, visible globally under clear skies.",2032-04-22,2032,April,Global
+102,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2032, visible globally under clear skies.",2032-05-06,2032,May,Global
+103,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2032, visible globally under clear skies.",2032-08-12,2032,August,Global
+104,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2032, visible globally under clear skies.",2032-10-08,2032,October,Global
+105,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2032, visible globally under clear skies.",2032-10-21,2032,October,Global
+106,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2032, visible globally under clear skies.",2032-11-17,2032,November,Global
+107,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2032, visible globally under clear skies.",2032-12-14,2032,December,Global
+108,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2032, visible globally under clear skies.",2032-12-22,2032,December,Global
+109,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2033, visible globally under clear skies.",2033-01-03,2033,January,Global
+110,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2033, visible globally under clear skies.",2033-04-22,2033,April,Global
+111,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2033, visible globally under clear skies.",2033-05-06,2033,May,Global
+112,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2033, visible globally under clear skies.",2033-08-12,2033,August,Global
+113,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2033, visible globally under clear skies.",2033-10-08,2033,October,Global
+114,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2033, visible globally under clear skies.",2033-10-21,2033,October,Global
+115,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2033, visible globally under clear skies.",2033-11-17,2033,November,Global
+116,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2033, visible globally under clear skies.",2033-12-14,2033,December,Global
+117,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2033, visible globally under clear skies.",2033-12-22,2033,December,Global
+118,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2034, visible globally under clear skies.",2034-01-03,2034,January,Global
+119,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2034, visible globally under clear skies.",2034-04-22,2034,April,Global
+120,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2034, visible globally under clear skies.",2034-05-06,2034,May,Global
+121,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2034, visible globally under clear skies.",2034-08-12,2034,August,Global
+122,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2034, visible globally under clear skies.",2034-10-08,2034,October,Global
+123,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2034, visible globally under clear skies.",2034-10-21,2034,October,Global
+124,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2034, visible globally under clear skies.",2034-11-17,2034,November,Global
+125,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2034, visible globally under clear skies.",2034-12-14,2034,December,Global
+126,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2034, visible globally under clear skies.",2034-12-22,2034,December,Global
+127,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2035, visible globally under clear skies.",2035-01-03,2035,January,Global
+128,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2035, visible globally under clear skies.",2035-04-22,2035,April,Global
+129,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2035, visible globally under clear skies.",2035-05-06,2035,May,Global
+130,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2035, visible globally under clear skies.",2035-08-12,2035,August,Global
+131,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2035, visible globally under clear skies.",2035-10-08,2035,October,Global
+132,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2035, visible globally under clear skies.",2035-10-21,2035,October,Global
+133,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2035, visible globally under clear skies.",2035-11-17,2035,November,Global
+134,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2035, visible globally under clear skies.",2035-12-14,2035,December,Global
+135,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2035, visible globally under clear skies.",2035-12-22,2035,December,Global
+136,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2036, visible globally under clear skies.",2036-01-03,2036,January,Global
+137,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2036, visible globally under clear skies.",2036-04-22,2036,April,Global
+138,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2036, visible globally under clear skies.",2036-05-06,2036,May,Global
+139,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2036, visible globally under clear skies.",2036-08-12,2036,August,Global
+140,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2036, visible globally under clear skies.",2036-10-08,2036,October,Global
+141,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2036, visible globally under clear skies.",2036-10-21,2036,October,Global
+142,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2036, visible globally under clear skies.",2036-11-17,2036,November,Global
+143,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2036, visible globally under clear skies.",2036-12-14,2036,December,Global
+144,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2036, visible globally under clear skies.",2036-12-22,2036,December,Global
+145,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2037, visible globally under clear skies.",2037-01-03,2037,January,Global
+146,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2037, visible globally under clear skies.",2037-04-22,2037,April,Global
+147,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2037, visible globally under clear skies.",2037-05-06,2037,May,Global
+148,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2037, visible globally under clear skies.",2037-08-12,2037,August,Global
+149,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2037, visible globally under clear skies.",2037-10-08,2037,October,Global
+150,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2037, visible globally under clear skies.",2037-10-21,2037,October,Global
+151,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2037, visible globally under clear skies.",2037-11-17,2037,November,Global
+152,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2037, visible globally under clear skies.",2037-12-14,2037,December,Global
+153,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2037, visible globally under clear skies.",2037-12-22,2037,December,Global
+154,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2038, visible globally under clear skies.",2038-01-03,2038,January,Global
+155,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2038, visible globally under clear skies.",2038-04-22,2038,April,Global
+156,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2038, visible globally under clear skies.",2038-05-06,2038,May,Global
+157,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2038, visible globally under clear skies.",2038-08-12,2038,August,Global
+158,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2038, visible globally under clear skies.",2038-10-08,2038,October,Global
+159,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2038, visible globally under clear skies.",2038-10-21,2038,October,Global
+160,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2038, visible globally under clear skies.",2038-11-17,2038,November,Global
+161,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2038, visible globally under clear skies.",2038-12-14,2038,December,Global
+162,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2038, visible globally under clear skies.",2038-12-22,2038,December,Global
+163,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2039, visible globally under clear skies.",2039-01-03,2039,January,Global
+164,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2039, visible globally under clear skies.",2039-04-22,2039,April,Global
+165,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2039, visible globally under clear skies.",2039-05-06,2039,May,Global
+166,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2039, visible globally under clear skies.",2039-08-12,2039,August,Global
+167,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2039, visible globally under clear skies.",2039-10-08,2039,October,Global
+168,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2039, visible globally under clear skies.",2039-10-21,2039,October,Global
+169,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2039, visible globally under clear skies.",2039-11-17,2039,November,Global
+170,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2039, visible globally under clear skies.",2039-12-14,2039,December,Global
+171,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2039, visible globally under clear skies.",2039-12-22,2039,December,Global
+172,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2040, visible globally under clear skies.",2040-01-03,2040,January,Global
+173,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2040, visible globally under clear skies.",2040-04-22,2040,April,Global
+174,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2040, visible globally under clear skies.",2040-05-06,2040,May,Global
+175,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2040, visible globally under clear skies.",2040-08-12,2040,August,Global
+176,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2040, visible globally under clear skies.",2040-10-08,2040,October,Global
+177,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2040, visible globally under clear skies.",2040-10-21,2040,October,Global
+178,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2040, visible globally under clear skies.",2040-11-17,2040,November,Global
+179,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2040, visible globally under clear skies.",2040-12-14,2040,December,Global
+180,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2040, visible globally under clear skies.",2040-12-22,2040,December,Global
+181,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2041, visible globally under clear skies.",2041-01-03,2041,January,Global
+182,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2041, visible globally under clear skies.",2041-04-22,2041,April,Global
+183,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2041, visible globally under clear skies.",2041-05-06,2041,May,Global
+184,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2041, visible globally under clear skies.",2041-08-12,2041,August,Global
+185,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2041, visible globally under clear skies.",2041-10-08,2041,October,Global
+186,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2041, visible globally under clear skies.",2041-10-21,2041,October,Global
+187,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2041, visible globally under clear skies.",2041-11-17,2041,November,Global
+188,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2041, visible globally under clear skies.",2041-12-14,2041,December,Global
+189,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2041, visible globally under clear skies.",2041-12-22,2041,December,Global
+190,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2042, visible globally under clear skies.",2042-01-03,2042,January,Global
+191,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2042, visible globally under clear skies.",2042-04-22,2042,April,Global
+192,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2042, visible globally under clear skies.",2042-05-06,2042,May,Global
+193,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2042, visible globally under clear skies.",2042-08-12,2042,August,Global
+194,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2042, visible globally under clear skies.",2042-10-08,2042,October,Global
+195,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2042, visible globally under clear skies.",2042-10-21,2042,October,Global
+196,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2042, visible globally under clear skies.",2042-11-17,2042,November,Global
+197,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2042, visible globally under clear skies.",2042-12-14,2042,December,Global
+198,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2042, visible globally under clear skies.",2042-12-22,2042,December,Global
+199,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2043, visible globally under clear skies.",2043-01-03,2043,January,Global
+200,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2043, visible globally under clear skies.",2043-04-22,2043,April,Global
+201,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2043, visible globally under clear skies.",2043-05-06,2043,May,Global
+202,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2043, visible globally under clear skies.",2043-08-12,2043,August,Global
+203,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2043, visible globally under clear skies.",2043-10-08,2043,October,Global
+204,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2043, visible globally under clear skies.",2043-10-21,2043,October,Global
+205,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2043, visible globally under clear skies.",2043-11-17,2043,November,Global
+206,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2043, visible globally under clear skies.",2043-12-14,2043,December,Global
+207,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2043, visible globally under clear skies.",2043-12-22,2043,December,Global
+208,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2044, visible globally under clear skies.",2044-01-03,2044,January,Global
+209,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2044, visible globally under clear skies.",2044-04-22,2044,April,Global
+210,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2044, visible globally under clear skies.",2044-05-06,2044,May,Global
+211,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2044, visible globally under clear skies.",2044-08-12,2044,August,Global
+212,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2044, visible globally under clear skies.",2044-10-08,2044,October,Global
+213,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2044, visible globally under clear skies.",2044-10-21,2044,October,Global
+214,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2044, visible globally under clear skies.",2044-11-17,2044,November,Global
+215,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2044, visible globally under clear skies.",2044-12-14,2044,December,Global
+216,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2044, visible globally under clear skies.",2044-12-22,2044,December,Global
+217,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2045, visible globally under clear skies.",2045-01-03,2045,January,Global
+218,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2045, visible globally under clear skies.",2045-04-22,2045,April,Global
+219,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2045, visible globally under clear skies.",2045-05-06,2045,May,Global
+220,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2045, visible globally under clear skies.",2045-08-12,2045,August,Global
+221,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2045, visible globally under clear skies.",2045-10-08,2045,October,Global
+222,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2045, visible globally under clear skies.",2045-10-21,2045,October,Global
+223,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2045, visible globally under clear skies.",2045-11-17,2045,November,Global
+224,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2045, visible globally under clear skies.",2045-12-14,2045,December,Global
+225,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2045, visible globally under clear skies.",2045-12-22,2045,December,Global
+226,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2046, visible globally under clear skies.",2046-01-03,2046,January,Global
+227,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2046, visible globally under clear skies.",2046-04-22,2046,April,Global
+228,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2046, visible globally under clear skies.",2046-05-06,2046,May,Global
+229,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2046, visible globally under clear skies.",2046-08-12,2046,August,Global
+230,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2046, visible globally under clear skies.",2046-10-08,2046,October,Global
+231,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2046, visible globally under clear skies.",2046-10-21,2046,October,Global
+232,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2046, visible globally under clear skies.",2046-11-17,2046,November,Global
+233,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2046, visible globally under clear skies.",2046-12-14,2046,December,Global
+234,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2046, visible globally under clear skies.",2046-12-22,2046,December,Global
+235,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2047, visible globally under clear skies.",2047-01-03,2047,January,Global
+236,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2047, visible globally under clear skies.",2047-04-22,2047,April,Global
+237,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2047, visible globally under clear skies.",2047-05-06,2047,May,Global
+238,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2047, visible globally under clear skies.",2047-08-12,2047,August,Global
+239,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2047, visible globally under clear skies.",2047-10-08,2047,October,Global
+240,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2047, visible globally under clear skies.",2047-10-21,2047,October,Global
+241,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2047, visible globally under clear skies.",2047-11-17,2047,November,Global
+242,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2047, visible globally under clear skies.",2047-12-14,2047,December,Global
+243,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2047, visible globally under clear skies.",2047-12-22,2047,December,Global
+244,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2048, visible globally under clear skies.",2048-01-03,2048,January,Global
+245,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2048, visible globally under clear skies.",2048-04-22,2048,April,Global
+246,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2048, visible globally under clear skies.",2048-05-06,2048,May,Global
+247,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2048, visible globally under clear skies.",2048-08-12,2048,August,Global
+248,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2048, visible globally under clear skies.",2048-10-08,2048,October,Global
+249,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2048, visible globally under clear skies.",2048-10-21,2048,October,Global
+250,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2048, visible globally under clear skies.",2048-11-17,2048,November,Global
+251,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2048, visible globally under clear skies.",2048-12-14,2048,December,Global
+252,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2048, visible globally under clear skies.",2048-12-22,2048,December,Global
+253,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2049, visible globally under clear skies.",2049-01-03,2049,January,Global
+254,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2049, visible globally under clear skies.",2049-04-22,2049,April,Global
+255,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2049, visible globally under clear skies.",2049-05-06,2049,May,Global
+256,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2049, visible globally under clear skies.",2049-08-12,2049,August,Global
+257,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2049, visible globally under clear skies.",2049-10-08,2049,October,Global
+258,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2049, visible globally under clear skies.",2049-10-21,2049,October,Global
+259,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2049, visible globally under clear skies.",2049-11-17,2049,November,Global
+260,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2049, visible globally under clear skies.",2049-12-14,2049,December,Global
+261,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2049, visible globally under clear skies.",2049-12-22,2049,December,Global
+262,Quadrantids Meteor Shower,Meteor Shower,"Quadrantids meteor shower peaking in January 2050, visible globally under clear skies.",2050-01-03,2050,January,Global
+263,Lyrids Meteor Shower,Meteor Shower,"Lyrids meteor shower peaking in April 2050, visible globally under clear skies.",2050-04-22,2050,April,Global
+264,Eta Aquariids Meteor Shower,Meteor Shower,"Eta Aquariids meteor shower peaking in May 2050, visible globally under clear skies.",2050-05-06,2050,May,Global
+265,Perseids Meteor Shower,Meteor Shower,"Perseids meteor shower peaking in August 2050, visible globally under clear skies.",2050-08-12,2050,August,Global
+266,Draconids Meteor Shower,Meteor Shower,"Draconids meteor shower peaking in October 2050, visible globally under clear skies.",2050-10-08,2050,October,Global
+267,Orionids Meteor Shower,Meteor Shower,"Orionids meteor shower peaking in October 2050, visible globally under clear skies.",2050-10-21,2050,October,Global
+268,Leonids Meteor Shower,Meteor Shower,"Leonids meteor shower peaking in November 2050, visible globally under clear skies.",2050-11-17,2050,November,Global
+269,Geminids Meteor Shower,Meteor Shower,"Geminids meteor shower peaking in December 2050, visible globally under clear skies.",2050-12-14,2050,December,Global
+270,Ursids Meteor Shower,Meteor Shower,"Ursids meteor shower peaking in December 2050, visible globally under clear skies.",2050-12-22,2050,December,Global
