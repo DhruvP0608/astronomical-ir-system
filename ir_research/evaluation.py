@@ -1,215 +1,177 @@
-import numpy as np
+import json
 
-from models import TFIDFModel
-from models import BM25Model
-from models import DenseModel
-from models import CorpusLoader
+from models import (
+    search_tfidf,
+    search_tfidf_plus,
+    search_bm25,
+    search_dense
+)
 
-from ground_truth import evaluation_queries
-
+from ground_truth import queries
 
 
 # =========================
-# METRIC FUNCTIONS
+# METRICS
 # =========================
 
-def precision_at_k(results, relevant, k):
+def precision_at_k(results, relevant, k=5):
 
-    retrieved = [doc for doc,score in results[:k]]
+    retrieved = [r[0] for r in results[:k]]
 
-    relevant_found = len(
-        set(retrieved).intersection(set(relevant))
-    )
+    rel = sum(1 for r in retrieved if r in relevant)
 
-    return relevant_found / k
+    return rel / k
 
 
+def recall_at_k(results, relevant, k=5):
 
-def recall_at_k(results, relevant, k):
+    retrieved = [r[0] for r in results[:k]]
 
-    retrieved = [doc for doc,score in results[:k]]
+    rel = sum(1 for r in retrieved if r in relevant)
 
-    relevant_found = len(
-        set(retrieved).intersection(set(relevant))
-    )
-
-    return relevant_found / len(relevant)
-
-
-
-def average_precision(results, relevant):
-
-    hits = 0
-    score = 0
-
-    for i,(doc,_) in enumerate(results):
-
-        if doc in relevant:
-
-            hits += 1
-
-            score += hits/(i+1)
-
-    if hits == 0:
+    if len(relevant) == 0:
         return 0
 
-    return score / len(relevant)
+    return rel / len(relevant)
 
 
+def mrr(results, relevant):
 
-def reciprocal_rank(results, relevant):
+    for i, r in enumerate(results):
 
-    for i,(doc,_) in enumerate(results):
-
-        if doc in relevant:
-            return 1/(i+1)
+        if r[0] in relevant:
+            return 1 / (i + 1)
 
     return 0
 
 
+def average_precision(results, relevant):
 
-# =========================
-# EVALUATION ENGINE
-# =========================
+    score = 0
+    rel_count = 0
 
-class ModelEvaluator:
+    for i, r in enumerate(results):
 
-    def __init__(self):
+        if r[0] in relevant:
 
-        corpus = CorpusLoader("../astronomical_corpus.csv")
+            rel_count += 1
 
-        self.documents = corpus.get_documents()
+            score += rel_count / (i + 1)
 
-        self.doc_ids = corpus.get_doc_ids()
+    if rel_count == 0:
+        return 0
 
-        self.tokenized = corpus.get_tokenized_documents()
-
-
-        self.tfidf = TFIDFModel(
-            self.documents,
-            self.doc_ids
-        )
-
-        self.bm25 = BM25Model(
-            self.tokenized,
-            self.doc_ids
-        )
-
-        self.dense = DenseModel(
-            self.documents,
-            self.doc_ids
-        )
-
-
-        print("Building models...")
-
-        self.tfidf.build()
-
-        self.bm25.build()
-
-        self.dense.build()
-
-        print("Models ready.")
-
-
-    def evaluate_model(self, model):
-
-        p5 = []
-        r5 = []
-        ap = []
-        rr = []
-
-        for query in evaluation_queries:
-
-            relevant = evaluation_queries[query]
-
-            results = model.search(query,10)
-
-            p5.append(
-                precision_at_k(results,relevant,5)
-            )
-
-            r5.append(
-                recall_at_k(results,relevant,5)
-            )
-
-            ap.append(
-                average_precision(results,relevant)
-            )
-
-            rr.append(
-                reciprocal_rank(results,relevant)
-            )
-
-        return {
-
-            "Precision@5": np.mean(p5),
-
-            "Recall@5": np.mean(r5),
-
-            "MAP": np.mean(ap),
-
-            "MRR": np.mean(rr)
-
-        }
-
-
-    def run(self):
-
-        results = {}
-
-        print("\nEvaluating TFIDF...")
-
-        results["TFIDF"] = self.evaluate_model(
-            self.tfidf
-        )
-
-        print("Done.")
-
-
-        print("\nEvaluating BM25...")
-
-        results["BM25"] = self.evaluate_model(
-            self.bm25
-        )
-
-        print("Done.")
-
-
-        print("\nEvaluating Dense...")
-
-        results["Dense"] = self.evaluate_model(
-            self.dense
-        )
-
-        print("Done.")
-
-
-        return results
-
+    return score / rel_count
 
 
 # =========================
-# TEST RUNNER
+# EVALUATION PIPELINE
 # =========================
 
-if __name__ == "__main__":
+def evaluate(model_func):
 
-    evaluator = ModelEvaluator()
+    precisions = []
+    recalls = []
+    maps = []
+    mrrs = []
 
-    results = evaluator.run()
+    for q in queries:
 
-    print("\nMODEL COMPARISON:\n")
+        results = model_func(q["query"])
 
-    for model in results:
+        relevant = q["relevant"]
 
-        print(model)
+        precisions.append(
+            precision_at_k(results, relevant)
+        )
 
-        for metric in results[model]:
+        recalls.append(
+            recall_at_k(results, relevant)
+        )
 
-            print(
-                metric,
-                round(results[model][metric],3)
-            )
+        maps.append(
+            average_precision(results, relevant)
+        )
 
-        print()
+        mrrs.append(
+            mrr(results, relevant)
+        )
+
+    return {
+
+        "Precision@5": round(sum(precisions)/len(precisions),3),
+
+        "Recall": round(sum(recalls)/len(recalls),3),
+
+        "MAP": round(sum(maps)/len(maps),3),
+
+        "MRR": round(sum(mrrs)/len(mrrs),3)
+
+    }
+
+
+print("\nBuilding models...")
+
+print("Models ready.")
+
+
+print("\nEvaluating TFIDF...")
+tfidf = evaluate(search_tfidf)
+
+print("Done.")
+
+
+print("\nEvaluating TFIDF+...")
+tfidf_plus = evaluate(search_tfidf_plus)
+
+print("Done.")
+
+
+print("\nEvaluating BM25...")
+bm25 = evaluate(search_bm25)
+
+print("Done.")
+
+
+print("\nEvaluating Dense...")
+dense = evaluate(search_dense)
+
+print("Done.")
+
+
+results = {
+
+    "TFIDF": tfidf,
+
+    "TFIDF+": tfidf_plus,
+
+    "BM25": bm25,
+
+    "Dense": dense
+
+}
+
+
+print("\nMODEL COMPARISON:\n")
+
+for model, metrics in results.items():
+
+    print(model)
+
+    for metric, value in metrics.items():
+
+        print(metric, value)
+
+    print()
+
+
+# =========================
+# SAVE RESULTS
+# =========================
+
+with open("results.json","w") as f:
+
+    json.dump(results, f, indent=4)
+
+
+print("Results saved.")

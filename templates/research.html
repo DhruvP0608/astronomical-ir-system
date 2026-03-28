@@ -11,219 +11,126 @@
 
 <style>
 
-/* override main card width */
 .event-card{
-
 width:100% !important;
-
 max-width:900px;
-
 margin:auto;
-
 }
 
-/* metric cards */
-
 .metric-grid{
-
 display:flex;
-
 justify-content:center;
-
 gap:25px;
-
 margin-bottom:50px;
-
 flex-wrap:wrap;
-
 }
 
 .metric-card{
-
 background:rgba(255,255,255,0.05);
-
 padding:25px;
-
 border-radius:20px;
-
 width:240px;
-
 text-align:center;
-
 box-shadow:0 10px 30px rgba(0,0,0,0.6);
-
 }
 
 .metric-card h3{
-
 color:#4cc9f0;
-
 margin-bottom:10px;
-
 }
 
 .metric-card p{
-
 color:#9fb3c8;
-
 margin:6px;
-
 }
 
 .best{
-
 border:2px solid #4cc9f0;
-
 }
 
-/* ranking */
-
 .ranking{
-
 display:flex;
-
 justify-content:center;
-
-gap:30px;
-
+gap:25px;
 margin-top:30px;
-
 margin-bottom:50px;
-
+flex-wrap:wrap;
 }
 
 .rank-card{
-
 background:rgba(255,255,255,0.05);
-
-padding:25px;
-
+padding:20px;
 border-radius:20px;
-
-width:220px;
-
+width:200px;
 text-align:center;
-
 }
 
 .gold{border:2px solid gold}
 .silver{border:2px solid silver}
 .bronze{border:2px solid #cd7f32}
 
-/* charts */
-
 .chart-grid{
-
 display:grid;
-
 grid-template-columns:1fr 1fr;
-
 gap:30px;
-
 max-width:1000px;
-
 margin:auto;
-
 margin-top:40px;
-
 }
 
 .chart-card{
-
 background:rgba(255,255,255,0.04);
-
 padding:20px;
-
 border-radius:20px;
-
 height:300px;
-
 }
 
 .chart-card canvas{
-
 height:240px !important;
-
 }
 
-/* radar */
-
 .radar-card{
-
 background:rgba(255,255,255,0.05);
-
 padding:25px;
-
 border-radius:25px;
-
-width:520px;
-
-height:380px;
-
+width:600px;
+height:420px;
 margin:auto;
-
 margin-top:60px;
-
 }
 
 .radar-card canvas{
-
-height:260px !important;
-
+height:300px !important;
 }
 
-/* table */
-
 table{
-
 width:100%;
-
 border-collapse:collapse;
-
 margin-top:20px;
-
 }
 
 th{
-
 color:#4cc9f0;
-
 padding:10px;
-
 }
 
 td{
-
 padding:8px;
-
 text-align:center;
-
 color:#9fb3c8;
-
 }
 
-/* verdict */
-
 .verdict{
-
 background:rgba(255,255,255,0.05);
-
 padding:25px;
-
 border-radius:20px;
-
 max-width:900px;
-
 margin:auto;
-
 margin-top:50px;
-
 }
 
 .section{
-
 margin-top:60px;
-
 }
 
 </style>
@@ -254,15 +161,11 @@ Research
 <div class="main-container">
 
 <h1>
-
 IR <span class="highlight">Research Dashboard</span>
-
 </h1>
 
 <p class="subtitle">
-
-Comparative evaluation of retrieval models
-
+Comparative evaluation of sparse and dense retrieval models
 </p>
 
 
@@ -276,7 +179,7 @@ Comparative evaluation of retrieval models
 
 <p>P@5: {{results["TFIDF"]["Precision@5"]}}</p>
 
-<p>Recall: {{results["TFIDF"]["Recall@5"]}}</p>
+<p>Recall: {{results["TFIDF"]["Recall"]}}</p>
 
 <p>MAP: {{results["TFIDF"]["MAP"]}}</p>
 
@@ -284,13 +187,29 @@ Comparative evaluation of retrieval models
 
 </div>
 
+
+<div class="metric-card">
+
+<h3>Enhanced TF-IDF</h3>
+
+<p>P@5: {{results["TFIDF+"]["Precision@5"]}}</p>
+
+<p>Recall: {{results["TFIDF+"]["Recall"]}}</p>
+
+<p>MAP: {{results["TFIDF+"]["MAP"]}}</p>
+
+<p>MRR: {{results["TFIDF+"]["MRR"]}}</p>
+
+</div>
+
+
 <div class="metric-card">
 
 <h3>BM25</h3>
 
 <p>P@5: {{results["BM25"]["Precision@5"]}}</p>
 
-<p>Recall: {{results["BM25"]["Recall@5"]}}</p>
+<p>Recall: {{results["BM25"]["Recall"]}}</p>
 
 <p>MAP: {{results["BM25"]["MAP"]}}</p>
 
@@ -298,13 +217,14 @@ Comparative evaluation of retrieval models
 
 </div>
 
+
 <div class="metric-card">
 
-<h3>Dense</h3>
+<h3>Dense Retrieval</h3>
 
 <p>P@5: {{results["Dense"]["Precision@5"]}}</p>
 
-<p>Recall: {{results["Dense"]["Recall@5"]}}</p>
+<p>Recall: {{results["Dense"]["Recall"]}}</p>
 
 <p>MAP: {{results["Dense"]["MAP"]}}</p>
 
@@ -333,9 +253,9 @@ Comparative evaluation of retrieval models
 
 <h2>🥈</h2>
 
-<h3>BM25</h3>
+<h3>Enhanced TF-IDF</h3>
 
-<p>Balanced ranking</p>
+<p>Best Recall</p>
 
 </div>
 
@@ -343,9 +263,17 @@ Comparative evaluation of retrieval models
 
 <h2>🥉</h2>
 
-<h3>Dense</h3>
+<h3>Dense Retrieval</h3>
 
-<p>Semantic retrieval</p>
+<p>Semantic matching</p>
+
+</div>
+
+<div class="rank-card">
+
+<h3>BM25</h3>
+
+<p>Baseline probabilistic</p>
 
 </div>
 
@@ -363,17 +291,11 @@ Comparative evaluation of retrieval models
 <table>
 
 <tr>
-
 <th>Model</th>
-
 <th>P@5</th>
-
 <th>Recall</th>
-
 <th>MAP</th>
-
 <th>MRR</th>
-
 </tr>
 
 {% for model in results %}
@@ -384,7 +306,7 @@ Comparative evaluation of retrieval models
 
 <td>{{results[model]["Precision@5"]}}</td>
 
-<td>{{results[model]["Recall@5"]}}</td>
+<td>{{results[model]["Recall"]}}</td>
 
 <td>{{results[model]["MAP"]}}</td>
 
@@ -406,27 +328,19 @@ Comparative evaluation of retrieval models
 <div class="chart-grid">
 
 <div class="chart-card">
-
 <canvas id="precisionChart"></canvas>
-
 </div>
 
 <div class="chart-card">
-
 <canvas id="recallChart"></canvas>
-
 </div>
 
 <div class="chart-card">
-
 <canvas id="mapChart"></canvas>
-
 </div>
 
 <div class="chart-card">
-
 <canvas id="mrrChart"></canvas>
-
 </div>
 
 </div>
@@ -437,9 +351,7 @@ Comparative evaluation of retrieval models
 <div class="radar-card">
 
 <h3 style="color:#4cc9f0">
-
 Model Performance Radar
-
 </h3>
 
 <canvas id="radarChart"></canvas>
@@ -455,9 +367,10 @@ Model Performance Radar
 
 <p>
 
-TF-IDF performs strongest due to direct keyword overlap.
-BM25 improves ranking using probabilistic scoring.
-Dense retrieval enables semantic similarity but benefits from larger datasets.
+TF-IDF achieved the strongest ranking effectiveness based on MAP and MRR.
+Enhanced TF-IDF improved recall due to n-gram expansion and improved preprocessing.
+Dense retrieval demonstrated semantic understanding of astronomical queries.
+BM25 showed weaker performance due to small corpus size.
 
 </p>
 
@@ -471,17 +384,19 @@ Dense retrieval enables semantic similarity but benefits from larger datasets.
 
 const data={{results|tojson}}
 
-const models=Object.keys(data)
+const models=["TFIDF","TFIDF+","BM25","Dense"]
 
 const precision=models.map(m=>data[m]["Precision@5"])
-
-const recall=models.map(m=>data[m]["Recall@5"])
-
+const recall=models.map(m=>data[m]["Recall"])
 const map=models.map(m=>data[m]["MAP"])
-
 const mrr=models.map(m=>data[m]["MRR"])
 
-const colors=["#4cc9f0","#f72585","#fca311"]
+const colors=[
+"#4cc9f0",
+"#72efdd",
+"#f72585",
+"#fca311"
+]
 
 function chart(id,label,values){
 
@@ -495,7 +410,7 @@ type:"bar",
 
 data:{
 
-labels:models,
+labels:["TFIDF","TFIDF+","BM25","Dense"],
 
 datasets:[{
 
@@ -514,7 +429,6 @@ borderRadius:6
 options:{
 
 responsive:true,
-
 maintainAspectRatio:false,
 
 plugins:{
@@ -542,11 +456,8 @@ grid:{display:false}
 }
 
 chart("precisionChart","Precision@5",precision)
-
-chart("recallChart","Recall@5",recall)
-
+chart("recallChart","Recall",recall)
 chart("mapChart","MAP",map)
-
 chart("mrrChart","MRR",mrr)
 
 
@@ -568,11 +479,21 @@ datasets:[
 
 label:"TFIDF",
 
-data:[precision[2],recall[2],map[2],mrr[2]],
+data:[precision[0],recall[0],map[0],mrr[0]],
 
 backgroundColor:"rgba(76,201,240,0.2)",
-
 borderColor:"#4cc9f0"
+
+},
+
+{
+
+label:"TFIDF+",
+
+data:[precision[1],recall[1],map[1],mrr[1]],
+
+backgroundColor:"rgba(114,239,221,0.2)",
+borderColor:"#72efdd"
 
 },
 
@@ -580,10 +501,9 @@ borderColor:"#4cc9f0"
 
 label:"BM25",
 
-data:[precision[0],recall[0],map[0],mrr[0]],
+data:[precision[2],recall[2],map[2],mrr[2]],
 
 backgroundColor:"rgba(247,37,133,0.2)",
-
 borderColor:"#f72585"
 
 },
@@ -592,10 +512,9 @@ borderColor:"#f72585"
 
 label:"Dense",
 
-data:[precision[1],recall[1],map[1],mrr[1]],
+data:[precision[3],recall[3],map[3],mrr[3]],
 
 backgroundColor:"rgba(252,163,17,0.2)",
-
 borderColor:"#fca311"
 
 }
@@ -607,7 +526,6 @@ borderColor:"#fca311"
 options:{
 
 responsive:true,
-
 maintainAspectRatio:false,
 
 plugins:{
@@ -615,12 +533,10 @@ legend:{labels:{color:"white"}}
 },
 
 scales:{
-
 r:{
 pointLabels:{color:"white"},
 grid:{color:"rgba(255,255,255,0.1)"}
 }
-
 }
 
 }

@@ -1,48 +1,53 @@
-evaluation_queries = {
+queries = [
 
-    "solar eclipse":
-    [2, 23, 26, 29, 49],
+{
+"query":"solar eclipse",
+"relevant":[1,2,3,4,5,6,7,8,9,10]
+},
 
-    "lunar eclipse":
-    [11, 25, 34, 49],
+{
+"query":"total solar eclipse",
+"relevant":[2,7,12,14,16,26,29]
+},
 
-    "meteor shower":
-    [11, 34, 49],
+{
+"query":"annular solar eclipse",
+"relevant":[1,6,11,13,15]
+},
 
-    "meteor shower august":
-    [34, 49],
+{
+"query":"partial solar eclipse",
+"relevant":[3,4,9,10,17,18]
+},
 
-    "planetary conjunction":
-    [14, 18, 31],
+{
+"query":"hybrid solar eclipse",
+"relevant":[5,24]
+},
 
-    "planetary transit":
-    [8, 21],
+{
+"query":"events visible in india",
+"relevant":[23,29]
+},
 
-    "visible in india":
-    [2, 23, 26, 29],
+{
+"query":"events visible in africa",
+"relevant":[9,29,14]
+},
 
-    "visible in europe":
-    [5, 17, 31],
+{
+"query":"events in australia",
+"relevant":[5,16]
+},
 
-    "eclipse 2026":
-    [23, 26, 29],
+{
+"query":"events in europe",
+"relevant":[4,14,18]
+},
 
-    "astronomical events":
-    [2, 11, 23, 34],
-
-    "total eclipse":
-    [2, 23, 26],
-
-    "celestial events":
-    [2, 11, 23, 34, 49],
-
-    "night sky events":
-    [11, 34, 49],
-
-    "space events":
-    [2, 11, 23, 34, 49],
-
-    "upcoming eclipse":
-    [23, 26, 29]
-
+{
+"query":"solar eclipse 2030",
+"relevant":[21,22]
 }
+
+]

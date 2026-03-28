@@ -2,248 +2,159 @@ import pandas as pd
 import numpy as np
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-
 from rank_bm25 import BM25Okapi
 
 from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 # =========================
-# CORPUS LOADER
+# LOAD CORPUS
 # =========================
 
-class CorpusLoader:
+DATA_PATH = "../astronomical_corpus.csv"
 
-    def __init__(self, path):
+df = pd.read_csv(DATA_PATH)
 
-        self.df = pd.read_csv(path)
+# Build searchable document text
+documents = (
 
-        self.df["doc_id"] = self.df["doc_id"].astype(int)
+    df["event_name"].astype(str) + " " +
 
+    df["event_category"].astype(str) + " " +
 
-    def get_documents(self):
+    df["description"].astype(str) + " " +
 
-        return self.df["description"].tolist()
+    df["visibility_regions"].astype(str)
 
+).tolist()
 
-    def get_doc_ids(self):
-
-        return self.df["doc_id"].tolist()
-
-
-    def get_tokenized_documents(self):
-
-        docs = self.df["description"].tolist()
-
-        tokenized = [doc.lower().split() for doc in docs]
-
-        return tokenized
-
-
-    def get_dataframe(self):
-
-        return self.df
-
+doc_ids = df["doc_id"].tolist()
 
 
 # =========================
-# TF-IDF MODEL
+# TFIDF BASE MODEL
 # =========================
 
-class TFIDFModel:
+print("\nBUILDING TFIDF MODEL...")
 
-    def __init__(self, documents, doc_ids):
+tfidf_vectorizer = TfidfVectorizer()
 
-        self.documents = documents
-        self.doc_ids = doc_ids
-
-        self.vectorizer = TfidfVectorizer(
-            stop_words="english"
-        )
-
-        self.doc_matrix = None
+tfidf_matrix = tfidf_vectorizer.fit_transform(documents)
 
 
-    def build(self):
+# =========================
+# TFIDF+ ENHANCED MODEL
+# =========================
 
-        self.doc_matrix = self.vectorizer.fit_transform(
-            self.documents
-        )
+print("BUILDING TFIDF+ MODEL...")
 
+tfidf_plus_vectorizer = TfidfVectorizer(
 
-    def search(self, query, k=10):
+    stop_words="english",
 
-        query_vec = self.vectorizer.transform([query])
+    ngram_range=(1,2),
 
-        scores = cosine_similarity(
-            query_vec,
-            self.doc_matrix
-        )[0]
+    sublinear_tf=True,
 
-        top_indices = np.argsort(scores)[::-1][:k]
+    norm="l2"
 
-        results = []
+)
 
-        for idx in top_indices:
-
-            results.append(
-                (
-                    int(self.doc_ids[idx]),
-                    float(scores[idx])
-                )
-            )
-
-        return results
-
+tfidf_plus_matrix = tfidf_plus_vectorizer.fit_transform(documents)
 
 
 # =========================
 # BM25 MODEL
 # =========================
 
-class BM25Model:
+print("BUILDING BM25 MODEL...")
 
-    def __init__(self, tokenized_documents, doc_ids):
+tokenized_docs = [doc.split() for doc in documents]
 
-        self.tokenized_documents = tokenized_documents
-        self.doc_ids = doc_ids
-
-        self.model = None
-
-
-    def build(self):
-
-        self.model = BM25Okapi(
-            self.tokenized_documents
-        )
-
-
-    def search(self, query, k=10):
-
-        tokenized_query = query.lower().split()
-
-        scores = self.model.get_scores(
-            tokenized_query
-        )
-
-        scores = np.array(scores)
-
-        top_indices = np.argsort(scores)[::-1][:k]
-
-        results = []
-
-        for idx in top_indices:
-
-            results.append(
-                (
-                    int(self.doc_ids[idx]),
-                    float(scores[idx])
-                )
-            )
-
-        return results
-
+bm25 = BM25Okapi(tokenized_docs)
 
 
 # =========================
-# DENSE MODEL (FOR LATER)
+# DENSE MODEL
 # =========================
 
-class DenseModel:
+print("BUILDING DENSE MODEL...")
 
-    def __init__(self, documents, doc_ids):
+dense_model = SentenceTransformer(
+    "sentence-transformers/all-MiniLM-L6-v2"
+)
 
-        self.documents = documents
-        self.doc_ids = doc_ids
-
-        self.model = SentenceTransformer(
-            "all-MiniLM-L6-v2"
-        )
-
-        self.embeddings = None
+dense_embeddings = dense_model.encode(documents)
 
 
-    def build(self):
-
-        self.embeddings = self.model.encode(
-            self.documents
-        )
-
-
-    def search(self, query, k=10):
-
-        query_embedding = self.model.encode([query])
-
-        scores = cosine_similarity(
-            query_embedding,
-            self.embeddings
-        )[0]
-
-        top_indices = np.argsort(scores)[::-1][:k]
-
-        results = []
-
-        for idx in top_indices:
-
-            results.append(
-                (
-                    int(self.doc_ids[idx]),
-                    float(scores[idx])
-                )
-            )
-
-        return results
-
+print("Models ready.")
 
 
 # =========================
-# TEST RUNNER
+# SEARCH FUNCTIONS
+# =========================
+
+def search_tfidf(query, top_k=5):
+
+    q_vec = tfidf_vectorizer.transform([query])
+
+    scores = cosine_similarity(q_vec, tfidf_matrix)[0]
+
+    ranked = np.argsort(scores)[::-1][:top_k]
+
+    return [(doc_ids[i], scores[i]) for i in ranked]
+
+
+def search_tfidf_plus(query, top_k=5):
+
+    q_vec = tfidf_plus_vectorizer.transform([query])
+
+    scores = cosine_similarity(q_vec, tfidf_plus_matrix)[0]
+
+    ranked = np.argsort(scores)[::-1][:top_k]
+
+    return [(doc_ids[i], scores[i]) for i in ranked]
+
+
+def search_bm25(query, top_k=5):
+
+    tokenized_query = query.split()
+
+    scores = bm25.get_scores(tokenized_query)
+
+    ranked = np.argsort(scores)[::-1][:top_k]
+
+    return [(doc_ids[i], scores[i]) for i in ranked]
+
+
+def search_dense(query, top_k=5):
+
+    q_emb = dense_model.encode([query])
+
+    scores = cosine_similarity(q_emb, dense_embeddings)[0]
+
+    ranked = np.argsort(scores)[::-1][:top_k]
+
+    return [(doc_ids[i], scores[i]) for i in ranked]
+
+
+# =========================
+# TEST RUN
 # =========================
 
 if __name__ == "__main__":
 
-    corpus = CorpusLoader("../astronomical_corpus.csv")
+    query = "solar eclipse india"
 
-    documents = corpus.get_documents()
+    print("\nTFIDF RESULTS:")
+    print(search_tfidf(query))
 
-    doc_ids = corpus.get_doc_ids()
+    print("\nTFIDF+ RESULTS:")
+    print(search_tfidf_plus(query))
 
-    tokenized_docs = corpus.get_tokenized_documents()
+    print("\nBM25 RESULTS:")
+    print(search_bm25(query))
 
-
-    print("\nBUILDING TFIDF MODEL...\n")
-
-    tfidf = TFIDFModel(documents, doc_ids)
-
-    tfidf.build()
-
-    tfidf_results = tfidf.search(
-        "solar eclipse visible in India",
-        5
-    )
-
-    print("TFIDF RESULTS:\n")
-
-    for doc_id, score in tfidf_results:
-
-        print(doc_id, score)
-
-
-
-    print("\nBUILDING BM25 MODEL...\n")
-
-    bm25 = BM25Model(tokenized_docs, doc_ids)
-
-    bm25.build()
-
-    bm25_results = bm25.search(
-        "solar eclipse visible in India",
-        5
-    )
-
-    print("BM25 RESULTS:\n")
-
-    for doc_id, score in bm25_results:
-
-        print(doc_id, score)
+    print("\nDENSE RESULTS:")
+    print(search_dense(query))
